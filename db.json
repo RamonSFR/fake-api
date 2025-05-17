@@ -332,6 +332,70 @@
           }
         ]
       }
+    },
+    {
+      "id": 7,
+      "name": "Cyberpunk 2077",
+      "description": "Cyberpunk 2077 is an open-world action RPG developed by CD Projekt Red. Set in the dystopian metropolis of Night City, players take on the role of V, a mercenary navigating a world of cybernetic enhancements, corporate intrigue, and underground factions. With branching narratives, deep customization, and intense combat, Cyberpunk 2077 offers a gripping experience where choices shape the future.",
+      "release_date": "2020-12-09T00:00:00.000Z",
+      "prices": {
+        "discount": 50,
+        "old": 60,
+        "current": 30
+      },
+      "details": {
+        "category": "RPG",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "CD PROJEKT RED",
+        "publisher": "CD PROJEKT RED",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Polish",
+          "Russian",
+          "Czech",
+          "Hungarian",
+          "Arabic",
+          "Turkish",
+          "Ukrainian",
+          "Brazilian Portuguese",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Thai"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/cyberpunk/thumbnail.jpg",
+        "cover": "/assets/cyberpunk/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/cyberpunk/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/cyberpunk/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/cyberpunk/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256904419/movie480_vp9.webm?t=1662480366"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256876061/movie480_vp9.webm?t=1646231431"
+          }
+        ]
+      }
     }
   ]
 }
