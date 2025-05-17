@@ -68,7 +68,7 @@
         "current": 70
       },
       "details": {
-        "category": "Survivor Horror",
+        "category": "Survival Horror",
         "system": ["Steam", "PS5"],
         "developer": "Bloober Team",
         "publisher": "Konami",
@@ -741,6 +741,122 @@
           {
             "type": "video",
             "url": "https://www.youtube.com/embed/QdBZY2fkU-0?si=xq0zXQMCpGBlUWmo"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "Dead Space (2023)",
+      "description": "Dead Space (2023) is a survival horror game developed by Motive Studio and published by Electronic Arts. A remake of the 2008 classic, the game follows engineer Isaac Clarke as he navigates the USG Ishimura, a mining spaceship overrun by terrifying Necromorphs. With enhanced graphics, immersive audio, and refined gameplay mechanics, this remake delivers a deeply atmospheric and intense horror experience.",
+      "release_date": "2023-01-27T00:00:00.000Z",
+      "prices": {
+        "discount": 25,
+        "old": 59.99,
+        "current": 44.99
+      },
+      "details": {
+        "category": "Survival Horror",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Motive Studio",
+        "publisher": "Electronic Arts",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Polish",
+          "Russian",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/deadspace/thumbnail.png",
+        "cover": "/assets/deadspace/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/deadspace/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/deadspace/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/deadspace/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256929315/movie480_vp9.webm?t=1675772698"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Red Dead Redemption II",
+      "description": "Red Dead Redemption II is an open-world action-adventure game developed and published by Rockstar Games. Set in 1899, players follow Arthur Morgan, an outlaw and member of the Van der Linde gang, as he navigates the decline of the Wild West. With a vast, immersive world, deep storytelling, and realistic mechanics, the game offers an unforgettable journey through the American frontier.",
+      "release_date": "2018-10-26T00:00:00.000Z",
+      "prices": {
+        "discount": 50,
+        "old": 60,
+        "current": 30
+      },
+      "details": {
+        "category": "Action-Adventure",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Rockstar Games",
+        "publisher": "Rockstar Games",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/rdr2/thumbnail.png",
+        "cover": "/assets/rdr2/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/rdr2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/rdr2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/rdr2/image3.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/rdr2/image4.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256768243/movie480.webm?t=1574881616"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256768244/movie480.webm?t=1574881606"
           }
         ]
       }
