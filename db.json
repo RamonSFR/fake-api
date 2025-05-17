@@ -110,6 +110,228 @@
           }
         ]
       }
+    },
+    {
+      "id": 3,
+      "name": "Call of Duty Modern Warfare III",
+      "description": "Call of Duty: Modern Warfare III (2023) is a first-person shooter developed by Sledgehammer Games and published by Activision. As the third entry in the rebooted Modern Warfare sub-series, the game follows Task Force 141 in their pursuit of Vladimir Makarov, a Russian ultranationalist threatening global war. Featuring intense single-player missions, remastered multiplayer maps, and an open-world Zombies mode, Modern Warfare III delivers high-stakes action and strategic combat.",
+      "release_date": "2023-11-10T00:00:00.000Z",
+      "prices": {
+        "discount": 50,
+        "old": 70,
+        "current": 35
+      },
+      "details": {
+        "category": "FPS",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Sledghammer Games",
+        "publisher": "Activision",
+        "languages": [
+          "English",
+          "Portuguese (Brazil)",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Arabic",
+          "Japanese",
+          "Spanish (Latin America)",
+          "Spanish (Spain)",
+          "Polish",
+          "Russian",
+          "Korean",
+          "Italian",
+          "French",
+          "German",
+          "Thai"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/mw3/thumbnail.png",
+        "cover": "/assets/mw3/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/mw3/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/mw3/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/mw3/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257069181/movie480_vp9.webm?t=1730154531"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Call of Duty Black Ops 6",
+      "description": "Call of Duty: Modern Warfare III (2023) is a first-person shooter developed by Sledgehammer Games and published by Activision. As the third entry in the rebooted Modern Warfare sub-series, the game follows Task Force 141 in their pursuit of Vladimir Makarov, a Russian ultranationalist threatening global war. Featuring intense single-player missions, remastered multiplayer maps, and an open-world Zombies mode, Modern Warfare III delivers high-stakes action and strategic combat.",
+      "release_date": "2024-10-25T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 70
+      },
+      "details": {
+        "category": "FPS",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Treyarch",
+        "publisher": "Activision",
+        "languages": [
+          "English",
+          "Portuguese (Brazil)",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Arabic",
+          "Japanese",
+          "Spanish (Latin America)",
+          "Spanish (Spain)",
+          "Polish",
+          "Russian",
+          "Korean",
+          "Italian",
+          "French",
+          "German",
+          "Thai"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/bo6/thumbnail.png",
+        "cover": "/assets/bo6/cover.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/bo6/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/bo6/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/bo6/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257092895/movie480_vp9.webm?t=1743610279"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Bloodborne",
+      "description": "Bloodborne is a dark fantasy action RPG developed by FromSoftware and published by Sony Computer Entertainment. Set in the Gothic city of Yharnam, players take on the role of a Hunter seeking the source of a mysterious blood-borne disease that has transformed the city's inhabitants into monstrous creatures. With fast-paced combat, intricate world design, and Lovecraftian horror elements, Bloodborne is praised for its challenging gameplay and deep lore.",
+      "release_date": "2015-03-24T00:00:00.000Z",
+      "prices": {
+        "discount": 50,
+        "old": 50,
+        "current": 25
+      },
+      "details": {
+        "category": "Souslike",
+        "system": ["PS5"],
+        "developer": "Fromsoftware",
+        "publisher": "Playstation",
+        "languages": [
+          "English",
+          "French",
+          "German",
+          "Italian",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Japanese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/bloodborne/thumbnail.jpg",
+        "cover": "/assets/bloodborne/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/bloodborne/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/bloodborne/image2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Tunic",
+      "description": "Tunic is an action-adventure game where players control a small fox exploring a mysterious, ruined world. With an isometric perspective, challenging combat, and cryptic storytelling, the game encourages discovery through hidden pathways, puzzles, and an in-game manual written in an unknown language. Inspired by classic adventure titles, Tunic blends exploration, mystery, and strategic combat into a visually stunning experience.",
+      "release_date": "2022-03-16T00:00:00.000Z",
+      "prices": {
+        "discount": 25,
+        "old": 40,
+        "current": 30
+      },
+      "details": {
+        "category": "Adventure",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Tunic Team",
+        "publisher": "Finji",
+        "languages": [
+          "English",
+          "Arabic",
+          "Bulgarian",
+          "Canadian French",
+          "Czech",
+          "Danish",
+          "German",
+          "Greek",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Finnish",
+          "French",
+          "Hungarian",
+          "Italian",
+          "Japanese",
+          "Korean",
+          "Dutch",
+          "Norwegian",
+          "Polish",
+          "Portuguese",
+          "Brazilian Portuguese",
+          "Romanian",
+          "Russian",
+          "Simplified Chinese",
+          "Swedish",
+          "Traditional Chinese",
+          "Turkish",
+          "Ukrainian"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/tunic/thumbnail.png",
+        "cover": "/assets/tunic/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/tunic/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/tunic/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/tunic/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256863992/movie480_vp9.webm?t=1639096972"
+          }
+        ]
+      }
     }
   ]
 }
