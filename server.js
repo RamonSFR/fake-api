@@ -1,41 +1,34 @@
-const jsonServer = require('json-server')
-const server = jsonServer.create()
+const express = require('express')
 const path = require('path')
+const jsonServer = require('json-server')
+const fs = require('fs')
+
+const server = express()
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
 
+// Serve a pasta 'assets' como estática
+server.use('/assets', express.static(path.join(__dirname, 'assets')))
+
 server.use(middlewares)
-server.use(jsonServer.bodyParser)
 
-// Endpoint personalizado: /promo
+// Endpoints personalizados
 server.get('/promo', (req, res) => {
-  const db = router.db // lowdb instance
-  const games = db.get('games').value()
-
-  const promoGames = games.filter(
-    (game) => game.prices?.discount !== null && game.prices?.discount !== undefined
-  )
-
-  res.jsonp(promoGames)
+  const db = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json'), 'utf-8'))
+  const promo = db.games.filter((game) => game.prices.discount != null)
+  res.json(promo)
 })
 
-// Endpoint personalizado: /comingsoon
 server.get('/comingsoon', (req, res) => {
-  const db = router.db
-  const games = db.get('games').value()
-
-  const comingSoonGames = games.filter(
-    (game) => game.prices?.current === null || game.prices?.current === undefined
-  )
-
-  res.jsonp(comingSoonGames)
+  const db = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json'), 'utf-8'))
+  const comingSoon = db.games.filter((game) => game.prices.current == null)
+  res.json(comingSoon)
 })
 
-// Rotas padrão (ex: /games)
+// Rota padrão do JSON Server
 server.use(router)
 
-// Inicia o servidor
-const PORT = process.env.PORT || 3000
-server.listen(PORT, () => {
-  console.log(`JSON Server is running on port ${PORT}`)
+const port = process.env.PORT || 3000
+server.listen(port, () => {
+  console.log(`JSON Server is running on port ${port}`)
 })
