@@ -398,61 +398,130 @@
       }
     },
     {
-  "id": 8,
-  "name": "Elden Ring",
-  "description": "Elden Ring is an action RPG developed by FromSoftware and published by Bandai Namco Entertainment. Set in the vast open world of the Lands Between, players take on the role of a Tarnished, seeking to restore the shattered Elden Ring and become the Elden Lord. With deep lore, challenging combat, and expansive exploration, Elden Ring offers a rich and immersive experience.",
-  "release_date": "2022-02-25T00:00:00.000Z",
-  "prices": {
-    "discount": 30,
-    "old": 60,
-    "current": 42
-  },
-  "details": {
-    "category": "Souslike",
-    "system": ["Steam", "PS5", "Xbox Series S/X"],
-    "developer": "Fromsoftware",
-    "publisher": "Bandai Namco Entertainment",
-    "languages": [
-      "English",
-      "French",
-      "Italian",
-      "German",
-      "Spanish (Spain)",
-      "Spanish (Latin America)",
-      "Portuguese (Brazil)",
-      "Russian",
-      "Japanese",
-      "Korean",
-      "Simplified Chinese",
-      "Traditional Chinese"
-    ]
-  },
-  "media": {
-    "thumbnail": "/assets/eldenring/thumbnail.jpg",
-    "cover": "/assets/eldenring/cover.webp",
-    "gallery": [
-      {
-        "type": "image",
-        "url": "/assets/eldenring/image1.jpg"
+      "id": 8,
+      "name": "Elden Ring",
+      "description": "Elden Ring is an action RPG developed by FromSoftware and published by Bandai Namco Entertainment. Set in the vast open world of the Lands Between, players take on the role of a Tarnished, seeking to restore the shattered Elden Ring and become the Elden Lord. With deep lore, challenging combat, and expansive exploration, Elden Ring offers a rich and immersive experience.",
+      "release_date": "2022-02-25T00:00:00.000Z",
+      "prices": {
+        "discount": 30,
+        "old": 60,
+        "current": 42
       },
-      {
-        "type": "image",
-        "url": "/assets/eldenring/image2.jpg"
+      "details": {
+        "category": "Souslike",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Fromsoftware",
+        "publisher": "Bandai Namco Entertainment",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
       },
-      {
-        "type": "image",
-        "url": "/assets/eldenring/image3.jpg"
-      },
-      {
-        "type": "video",
-        "url": "https://video.fastly.steamstatic.com/store_trailers/256843493/movie480_vp9.webm?t=1641422481"
-      },
-      {
-        "type": "video",
-        "url": "https://video.fastly.steamstatic.com/store_trailers/256843493/movie480_vp9.webm?t=1641422481"
+      "media": {
+        "thumbnail": "/assets/eldenring/thumbnail.jpg",
+        "cover": "/assets/eldenring/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/eldenring/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/eldenring/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/eldenring/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256843493/movie480_vp9.webm?t=1641422481"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256843493/movie480_vp9.webm?t=1641422481"
+          }
+        ]
       }
-    ]
-  }
-}
+    },
+    {
+      "id": 9,
+      "name": "The Last of Us Part II Remastered",
+      "description": "The Last of Us Part II Remastered is a third-person action-adventure survival horror game developed by Naughty Dog and published by Sony Interactive Entertainment. This enhanced version of the 2020 title features improved visuals, faster loading times, and new gameplay modes, including the roguelike survival experience 'No Return.' Players follow Ellie and Abby through a gripping narrative of revenge, trauma, and redemption in a post-apocalyptic world.",
+      "release_date": "2025-04-03T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 70
+      },
+      "details": {
+        "category": "Action-Adventure",
+        "system": ["Steam", "PS5"],
+        "developer": "Naughty Dog",
+        "publisher": "Sony Interactive Entertainment",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Dutch",
+          "Croatian",
+          "Danish",
+          "Hungarian",
+          "Norwegian",
+          "Swedish",
+          "Finnish",
+          "Turkish",
+          "Czech",
+          "Greek",
+          "Japanese",
+          "Korean",
+          "Thai",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/tlou2/thumbnail.avif",
+        "cover": "/assets/tlou2/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/tlou2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/tlou2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/tlou2/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257121063/movie480_vp9.webm?t=1746152569"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257082088/movie480_vp9.webm?t=1734374609"
+          }
+        ]
+      }
+    }
   ]
 }
