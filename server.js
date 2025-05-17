@@ -30,4 +30,20 @@ server.listen(3000, () => {
   console.log("JSON Server is running");
 });
 
+server.get("/promo", (req, res) => {
+  const db = router.db
+  const games = db.get("games").value()
+  const promoGames = games.filter(
+    (game) => game.prices.current !== null && game.prices.discount !== null
+  )
+  res.json(promoGames)
+})
+
+server.get("/comingsoon", (req, res) => {
+  const db = router.db
+  const games = db.get("games").value()
+  const comingSoonGames = games.filter((game) => game.prices.current === null)
+  res.json(comingSoonGames)
+})
+
 module.exports = server;

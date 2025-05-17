@@ -723,16 +723,16 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/gta6/thumbnail.png",
-        "cover": "/assets/gta6/cover.avif",
+        "thumbnail": "/assets/gtavi/thumbnail.png",
+        "cover": "/assets/gtavi/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/gta6/image1.webp"
+            "url": "/assets/gtavi/image1.webp"
           },
           {
             "type": "image",
-            "url": "/assets/gta6/image2.jpg"
+            "url": "/assets/gtavi/image2.jpg"
           },
           {
             "type": "video",
