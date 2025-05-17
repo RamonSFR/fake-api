@@ -396,6 +396,63 @@
           }
         ]
       }
-    }
+    },
+    {
+  "id": 8,
+  "name": "Elden Ring",
+  "description": "Elden Ring is an action RPG developed by FromSoftware and published by Bandai Namco Entertainment. Set in the vast open world of the Lands Between, players take on the role of a Tarnished, seeking to restore the shattered Elden Ring and become the Elden Lord. With deep lore, challenging combat, and expansive exploration, Elden Ring offers a rich and immersive experience.",
+  "release_date": "2022-02-25T00:00:00.000Z",
+  "prices": {
+    "discount": 30,
+    "old": 60,
+    "current": 42
+  },
+  "details": {
+    "category": "Souslike",
+    "system": ["Steam", "PS5", "Xbox Series S/X"],
+    "developer": "Fromsoftware",
+    "publisher": "Bandai Namco Entertainment",
+    "languages": [
+      "English",
+      "French",
+      "Italian",
+      "German",
+      "Spanish (Spain)",
+      "Spanish (Latin America)",
+      "Portuguese (Brazil)",
+      "Russian",
+      "Japanese",
+      "Korean",
+      "Simplified Chinese",
+      "Traditional Chinese"
+    ]
+  },
+  "media": {
+    "thumbnail": "/assets/eldenring/thumbnail.jpg",
+    "cover": "/assets/eldenring/cover.webp",
+    "gallery": [
+      {
+        "type": "image",
+        "url": "/assets/eldenring/image1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "/assets/eldenring/image2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "/assets/eldenring/image3.jpg"
+      },
+      {
+        "type": "video",
+        "url": "https://video.fastly.steamstatic.com/store_trailers/256843493/movie480_vp9.webm?t=1641422481"
+      },
+      {
+        "type": "video",
+        "url": "https://video.fastly.steamstatic.com/store_trailers/256843493/movie480_vp9.webm?t=1641422481"
+      }
+    ]
+  }
+}
   ]
 }
