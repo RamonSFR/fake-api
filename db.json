@@ -690,6 +690,60 @@
           }
         ]
       }
+    },
+    {
+      "id": 13,
+      "name": "Grand Theft Auto VI",
+      "description": "Grand Theft Auto VI is an upcoming open-world action-adventure game developed and published by Rockstar Games. Set in the fictional U.S. state of Leonida, inspired by Florida, the game follows Jason Duval and Lucia Caminos as they navigate the criminal underworld of Vice City. After a failed heist, they find themselves entangled in a vast conspiracy, forced to rely on each other to survive. With cutting-edge visuals, an expansive world, and deep storytelling, GTA VI promises to redefine the open-world experience.",
+      "release_date": "2026-05-26T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": null
+      },
+      "details": {
+        "category": "Action-Adventure",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Rockstar Games",
+        "publisher": "Rockstar Games",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/gta6/thumbnail.png",
+        "cover": "/assets/gta6/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/gta6/image1.webp"
+          },
+          {
+            "type": "image",
+            "url": "/assets/gta6/image2.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://www.youtube.com/embed/VQRLujxTm3c?si=3GeDdmNqsVNRabel"
+          },
+          {
+            "type": "video",
+            "url": "https://www.youtube.com/embed/QdBZY2fkU-0?si=xq0zXQMCpGBlUWmo"
+          }
+        ]
+      }
     }
   ]
 }
