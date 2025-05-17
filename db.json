@@ -250,7 +250,7 @@
         ]
       },
       "media": {
-        "thumbnail": "https://raw.githubusercontent.com/RamonSFR/fake-api/refs/heads/main/assets/bloodborne/thumbnail.jpg",
+        "thumbnail": "/assets/bloodborne/thumbnail.jpg",
         "cover": "/assets/bloodborne/cover.webp",
         "gallery": [
           {
