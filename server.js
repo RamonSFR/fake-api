@@ -1,49 +1,41 @@
-// JSON Server module
-const jsonServer = require("json-server");
-const path = require("path");
+const jsonServer = require('json-server')
+const server = jsonServer.create()
+const path = require('path')
+const router = jsonServer.router(path.join(__dirname, 'db.json'))
+const middlewares = jsonServer.defaults()
 
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+server.use(middlewares)
+server.use(jsonServer.bodyParser)
 
-// Middleware para servir arquivos estáticos da pasta /assets
-server.use(
-  "/assets",
-  jsonServer.defaults({ static: path.join(__dirname, "assets") })
-);
+// Endpoint personalizado: /promo
+server.get('/promo', (req, res) => {
+  const db = router.db // lowdb instance
+  const games = db.get('games').value()
 
-// Middlewares padrões
-const middlewares = jsonServer.defaults();
-server.use(middlewares);
+  const promoGames = games.filter(
+    (game) => game.prices?.discount !== null && game.prices?.discount !== undefined
+  )
 
-// Reescritor de rotas
-server.use(
-  jsonServer.rewriter({
-    "/*": "/$1"
-  })
-);
+  res.jsonp(promoGames)
+})
 
-// Usa o roteador JSON
-server.use(router);
+// Endpoint personalizado: /comingsoon
+server.get('/comingsoon', (req, res) => {
+  const db = router.db
+  const games = db.get('games').value()
+
+  const comingSoonGames = games.filter(
+    (game) => game.prices?.current === null || game.prices?.current === undefined
+  )
+
+  res.jsonp(comingSoonGames)
+})
+
+// Rotas padrão (ex: /games)
+server.use(router)
 
 // Inicia o servidor
-server.listen(3000, () => {
-  console.log("JSON Server is running");
-});
-
-server.get("/promo", (req, res) => {
-  const db = router.db
-  const games = db.get("games").value()
-  const promoGames = games.filter(
-    (game) => game.prices.current !== null && game.prices.discount !== null
-  )
-  res.json(promoGames)
+const PORT = process.env.PORT || 3000
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`)
 })
-
-server.get("/comingsoon", (req, res) => {
-  const db = router.db
-  const games = db.get("games").value()
-  const comingSoonGames = games.filter((game) => game.prices.current === null)
-  res.json(comingSoonGames)
-})
-
-module.exports = server;
