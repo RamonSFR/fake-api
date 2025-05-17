@@ -1,0 +1,115 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Clair Obscur: Expedition 33",
+      "description": "Clair Obscur: Expedition 33 is a turn-based RPG set in a dark fantasy world inspired by Belle Époque France. Players lead Expedition 33 on a desperate mission to stop the Artífice, a mysterious entity that annually paints a number—marking all people of that age for death. With a gripping narrative, strategic combat blending real-time mechanics, and stunning visuals, the game delivers an emotional journey of hope, loss, and defiance against fate.",
+      "release_date": "2025-04-24T00:00:00.000Z",
+      "prices": {
+        "discount": 30,
+        "old": 69.99,
+        "current": 49.99
+      },
+      "details": {
+        "category": "RPG",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Sandfall Interactive",
+        "publisher": "Kepler Interactive",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Japanese",
+          "Korean",
+          "Polish",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/expedition33/thumbnail.avif",
+        "cover": "/assets/expedition33/cover.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/expedition33/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/expedition33/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/expedition33/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257129803/movie480_vp9.webm?t=1745478082"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257089584/movie480_vp9.webm?t=1737713984"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Silent Hill 2",
+      "description": "Silent Hill 2 is a psychological horror game that follows James Sunderland as he searches for his deceased wife in the eerie town of Silent Hill. Drawn by a mysterious letter, James encounters disturbing creatures, unsettling characters, and his own haunting past. With its deep symbolism, emotional storytelling, and atmospheric tension, Silent Hill 2 is widely regarded as one of the greatest horror games ever made.",
+      "release_date": "2024-10-08T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 70
+      },
+      "details": {
+        "category": "Survivor Horror",
+        "system": ["Steam", "PS5"],
+        "developer": "Bloober Team",
+        "publisher": "Konami",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish",
+          "Polish",
+          "Russian",
+          "Ukrainian",
+          "Chinese (Simplified)",
+          "Chinese (Traditional)",
+          "Japanese",
+          "Korean",
+          "Brazilian Portuguese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/sh2/thumbnail.avif",
+        "cover": "/assets/sh2/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/sh2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/sh2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/sh2/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257026897/movie480_vp9.webm?t=1717109160"
+          }
+        ]
+      }
+    }
+  ]
+}
