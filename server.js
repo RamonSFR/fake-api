@@ -1,24 +1,33 @@
 // JSON Server module
 const jsonServer = require("json-server");
+const path = require("path");
+
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 
-// Make sure to use the default middleware
-const middlewares = jsonServer.defaults();
-
-server.use(middlewares);
-// Add this before server.use(router)
+// Middleware para servir arquivos estáticos da pasta /assets
 server.use(
- // Add custom route here if needed
- jsonServer.rewriter({
-  "/*": "/$1",
- })
+  "/assets",
+  jsonServer.defaults({ static: path.join(__dirname, "assets") })
 );
+
+// Middlewares padrões
+const middlewares = jsonServer.defaults();
+server.use(middlewares);
+
+// Reescritor de rotas
+server.use(
+  jsonServer.rewriter({
+    "/*": "/$1"
+  })
+);
+
+// Usa o roteador JSON
 server.use(router);
-// Listen to port
+
+// Inicia o servidor
 server.listen(3000, () => {
- console.log("JSON Server is running");
+  console.log("JSON Server is running");
 });
 
-// Export the Server API
 module.exports = server;
