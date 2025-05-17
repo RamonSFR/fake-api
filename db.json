@@ -522,6 +522,174 @@
           }
         ]
       }
+    },
+    {
+      "id": 10,
+      "name": "Outer Wilds",
+      "description": "Outer Wilds is an open-world mystery adventure developed by Mobius Digital and published by Annapurna Interactive. Players take on the role of a space explorer investigating a solar system trapped in a 22-minute time loop. As they uncover ancient Nomai ruins and piece together cosmic secrets, they must navigate dynamic environments that change over time. With deep exploration, clever puzzles, and a unique storytelling approach, Outer Wilds offers a thought-provoking journey through space and time.",
+      "release_date": "2019-05-28T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 20
+      },
+      "details": {
+        "category": "Puzzle",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Mobius Digital",
+        "publisher": "Annapurna Interactive",
+        "languages": [
+          "English",
+          "French",
+          "Spanish",
+          "German",
+          "Portuguese",
+          "Italian",
+          "Polish",
+          "Russian",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/outerwilds/thumbnail.png",
+        "cover": "/assets/outerwilds/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/outerwilds/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/outerwilds/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/outerwilds/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256778920/movie480.webm?t=1585255228"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256711433/movie480.webm?t=1521129497"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "description": "METAL GEAR SOLID Δ: SNAKE EATER is a remake of the 2004 classic, Metal Gear Solid 3: Snake Eater, developed and published by Konami. This reimagined version retains the gripping Cold War-era story while introducing enhanced graphics, 3D audio, and modern gameplay refinements. Players step into the boots of Naked Snake as he embarks on a mission to rescue a defecting scientist, sabotage a nuclear-equipped superweapon, and confront his legendary mentor, The Boss. With stealth-focused mechanics and immersive jungle survival elements, this remake delivers the ultimate tactical espionage action experience.",
+      "release_date": "2025-08-28T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": null
+      },
+      "details": {
+        "category": "Stealth-Action",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Konami Digital Entertainment",
+        "publisher": "Konami",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/mgsdelta/thumbnail.png",
+        "cover": "/assets/mgsdelta/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/mgsdelta/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/mgsdelta/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/mgsdelta/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257094306/movie480_vp9.webm?t=1739435876"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257058986/movie480_vp9.webm?t=1739435878"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Hollow Knight: Silksong",
+      "description": "Hollow Knight: Silksong is the highly anticipated sequel to Hollow Knight, developed and published by Team Cherry. Players take on the role of Hornet, princess-protector of Hallownest, as she embarks on a perilous journey through the mysterious kingdom of Pharloom. With fluid combat, intricate platforming, and a hauntingly beautiful world, Silksong expands upon its predecessor with new mechanics, enemies, and an immersive orchestral soundtrack.",
+      "release_date": null,
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": null
+      },
+      "details": {
+        "category": "Metroidvania",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Team Cherry",
+        "publisher": "Team Cherry",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/silksong/thumbnail.png",
+        "cover": "/assets/silksong/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/silksong/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/silksong/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/silksong/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256742997/movie480.webm?t=1550167436"
+          }
+        ]
+      }
     }
   ]
 }
