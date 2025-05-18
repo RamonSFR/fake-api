@@ -1121,24 +1121,24 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/witcher3/thumbnail.png",
-        "cover": "/assets/witcher3/cover.jpg",
+        "thumbnail": "/assets/tw3/thumbnail.png",
+        "cover": "/assets/tw3/cover.jpg",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/witcher3/image1.jpg"
+            "url": "/assets/tw3/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/witcher3/image2.jpg"
+            "url": "/assets/tw3/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/witcher3/image3.jpg"
+            "url": "/assets/tw3/image3.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/witcher3/image4.jpg"
+            "url": "/assets/tw3/image4.jpg"
           },
           {
             "type": "video",
@@ -1147,6 +1147,67 @@
           {
             "type": "video",
             "url": "https://video.fastly.steamstatic.com/store_trailers/256920685/movie480_vp9.webm?t=1670976368"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "Call of Duty: Modern Warfare (2019)",
+      "description": "Call of Duty: Modern Warfare (2019) is a first-person shooter developed by Infinity Ward and published by Activision. Serving as a reboot of the Modern Warfare sub-series, the game features a gripping campaign where players join CIA operatives and British SAS forces to combat Russian invaders and terrorist factions. With realistic combat mechanics, cross-platform multiplayer, and the introduction of Warzone battle royale, Modern Warfare delivers intense action and tactical gameplay.",
+      "release_date": "2019-10-25T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 60
+      },
+      "details": {
+        "category": "FPS",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Infinity Ward",
+        "publisher": "Activision",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Arabic",
+          "Dutch",
+          "Turkish"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/mw/thumbnail.png",
+        "cover": "/assets/mw/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/mw/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/mw/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/mw/image3.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/mw/image4.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/mw/image5.jpg"
           }
         ]
       }
