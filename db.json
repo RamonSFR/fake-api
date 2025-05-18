@@ -234,7 +234,7 @@
         "current": 25
       },
       "details": {
-        "category": "Souslike",
+        "category": "Soulslike",
         "system": ["PS5"],
         "developer": "Fromsoftware",
         "publisher": "Playstation",
@@ -408,7 +408,7 @@
         "current": 42
       },
       "details": {
-        "category": "Souslike",
+        "category": "Soulslike",
         "system": ["Steam", "PS5", "Xbox Series S/X"],
         "developer": "Fromsoftware",
         "publisher": "Bandai Namco Entertainment",
@@ -1082,6 +1082,71 @@
           {
             "type": "video",
             "url": "https://video.fastly.steamstatic.com/store_trailers/256785384/movie480_vp9.webm?t=1589550020"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "The Witcher 3: Wild Hunt",
+      "description": "The Witcher 3: Wild Hunt is an open-world action RPG developed and published by CD Projekt Red. Players take on the role of Geralt of Rivia, a monster hunter navigating a war-torn world in search of his adopted daughter, Ciri, who is pursued by the spectral Wild Hunt. With deep storytelling, dynamic combat, and a richly detailed world inspired by Slavic mythology, The Witcher 3 is widely regarded as one of the greatest RPGs of all time.",
+      "release_date": "2015-05-19T00:00:00.000Z",
+      "prices": {
+        "discount": 90,
+        "old": 40,
+        "current": 4
+      },
+      "details": {
+        "category": "RPG",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "CD Projekt Red",
+        "publisher": "CD Projekt",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Polish",
+          "Russian",
+          "Czech",
+          "Hungarian",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Arabic"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/witcher3/thumbnail.png",
+        "cover": "/assets/witcher3/cover.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/witcher3/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/witcher3/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/witcher3/image3.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/witcher3/image4.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256927226/movie480_vp9.webm?t=1674829926"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256920685/movie480_vp9.webm?t=1670976368"
           }
         ]
       }

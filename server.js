@@ -47,10 +47,14 @@ server.get('/action', (req, res) => {
 server.get('/rpg', (req, res) => {
   const db = router.db
   const games = db.get('games')
-    .filter(game => game.details.category.toLowerCase().includes('rpg'))
+    .filter(game => {
+      const category = game.details.category.toLowerCase()
+      return category.includes('rpg') || category.includes('soulslike')
+    })
     .value()
   res.json(games)
 })
+
 
 server.get('/horror', (req, res) => {
   const db = router.db
