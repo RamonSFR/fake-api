@@ -703,7 +703,7 @@
       },
       "details": {
         "category": "Action-Adventure",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [],
         "developer": "Rockstar Games",
         "publisher": "Rockstar Games",
         "languages": [
@@ -1610,6 +1610,60 @@
           {
             "type": "video",
             "url": "https://video.fastly.steamstatic.com/store_trailers/256880856/movie480_vp9.webm?t=1651692528"
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "name": "Persona 3 Reload",
+      "description": "Persona 3 Reload is a remake of the 2006 classic RPG developed by Atlus and published by Sega. Players take on the role of a high school student who gains the ability to summon Personas and joins the Specialized Extracurricular Execution Squad (S.E.E.S.) to battle mysterious creatures known as Shadows. With modernized visuals, refined gameplay, and expanded story elements, Reload brings the beloved Persona 3 experience to a new generation.",
+      "release_date": "2024-02-02T00:00:00.000Z",
+      "prices": {
+        "discount": 30,
+        "old": 60,
+        "current": 42
+      },
+      "details": {
+        "category": "RPG",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Atlus",
+        "publisher": "Sega",
+        "languages": [
+          "English",
+          "Japanese",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Korean",
+          "Polish",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Turkish"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/persona3/thumbnail.png",
+        "cover": "/assets/persona3/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/persona3/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/persona3/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/persona3/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256997656/movie480_vp9.webm?t=1706853531"
           }
         ]
       }
