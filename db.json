@@ -2267,20 +2267,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/eurotrucksimulator2/thumbnail.png",
-        "cover": "/assets/eurotrucksimulator2/cover.webp",
+        "thumbnail": "/assets/eurotruck2/thumbnail.png",
+        "cover": "/assets/eurotruck2/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/eurotrucksimulator2/image1.jpg"
+            "url": "/assets/eurotruck2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/eurotrucksimulator2/image2.jpg"
+            "url": "/assets/eurotruck2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/eurotrucksimulator2/image3.jpg"
+            "url": "/assets/eurotruck2/image3.jpg"
           },
           {
             "type": "video",
