@@ -913,6 +913,178 @@
           }
         ]
       }
+    },
+    {
+      "id": 17,
+      "name": "EA SPORTS FC 25",
+      "description": "EA SPORTS FC 25 is the latest installment in EA's football simulation series, developed and published by Electronic Arts. Featuring enhanced gameplay mechanics, smarter AI, and new tactical systems like FC IQ, the game offers a more immersive football experience. Players can compete in over 30 licensed leagues, including the UEFA Champions League, Premier League, and Bundesliga, with more than 19,000 real-world athletes. The new 5v5 Rush mode introduces fast-paced matches, replacing VOLTA, while Career Mode and Ultimate Team receive major updates.",
+      "release_date": "2024-09-27T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": null
+      },
+      "details": {
+        "category": "Sports",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "EA Vancouver, EA Romania",
+        "publisher": "Electronic Arts",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Arabic",
+          "Dutch",
+          "Turkish"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/fc25/thumbnail.png",
+        "cover": "/assets/fc25/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/fc25/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/fc25/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/fc25/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257059675/movie480_vp9.webm?t=1727470235"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "F1 25",
+      "description": "F1 25 is the latest installment in the official Formula 1 racing series, developed by Codemasters and published by EA Sports. Featuring enhanced physics, realistic LiDAR-scanned circuits, and the return of the Braking Point story mode, the game offers an immersive experience for both casual and competitive players. With updated teams, cars, and dynamic weather effects, F1 25 delivers the most authentic F1 simulation yet.",
+      "release_date": "2025-05-30T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": null
+      },
+      "details": {
+        "category": "Sports",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Codemasters",
+        "publisher": "EA Sports",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Dutch",
+          "Turkish",
+          "Arabic"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/f125/thumbnail.png",
+        "cover": "/assets/f125/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/f125/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/f125/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/f125/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257128709/movie480_vp9.webm?t=1745234544"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257128695/movie480_vp9.webm?t=1745234541"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Cities: Skylines",
+      "description": "Cities: Skylines is a city-building simulation game developed by Colossal Order and published by Paradox Interactive. Players take on the role of a mayor, managing zoning, infrastructure, taxation, and public services to create and maintain a thriving metropolis. With deep simulation mechanics, extensive modding support, and a vast array of expansions, Cities: Skylines offers a highly detailed and customizable urban planning experience.",
+      "release_date": "2015-03-10T00:00:00.000Z",
+      "prices": {
+        "discount": 80,
+        "old": 30,
+        "current": 6
+      },
+      "details": {
+        "category": "Simulation",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Colossal Order",
+        "publisher": "Paradox Interactive",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/citiesskylines/thumbnail.png",
+        "cover": "/assets/citiesskylines/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/citiesskylines/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/citiesskylines/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/citiesskylines/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256785384/movie480_vp9.webm?t=1589550020"
+          }
+        ]
+      }
     }
   ]
 }
