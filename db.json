@@ -1211,6 +1211,235 @@
           }
         ]
       }
+    },
+    {
+      "id": 22,
+      "name": "Dark Souls Remastered",
+      "description": "Dark Souls Remastered is an enhanced version of the critically acclaimed action RPG developed by FromSoftware and published by Bandai Namco Entertainment. Players return to the dark and immersive world of Lordran, facing relentless enemies, intricate level design, and deep lore. With improved graphics, smoother performance, and expanded online features, this remaster preserves the challenge and atmosphere of the original while refining the experience for modern platforms.",
+      "release_date": "2018-05-25T00:00:00.000Z",
+      "prices": {
+        "discount": 50,
+        "old": 60,
+        "current": 30
+      },
+      "details": {
+        "category": "Soulslike",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "FromSoftware",
+        "publisher": "Bandai Namco Entertainment",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/darksoulsremastered/thumbnail.png",
+        "cover": "/assets/darksoulsremastered/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/darksoulsremastered/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/darksoulsremastered/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/darksoulsremastered/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256717685/movie480.webm?t=1605604943"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "Demon's Souls Remake",
+      "description": "Demon's Souls Remake is a reimagining of the 2009 classic, developed by Bluepoint Games and published by Sony Interactive Entertainment. Set in the cursed kingdom of Boletaria, players take on the role of a lone warrior battling nightmarish creatures and powerful demons. With stunning visuals, refined mechanics, and immersive sound design, this remake preserves the brutal challenge and deep lore of the original while enhancing the experience for modern audiences.",
+      "release_date": "2020-11-12T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 54.99
+      },
+      "details": {
+        "category": "Soulslike",
+        "system": ["PS5"],
+        "developer": "Bluepoint Games",
+        "publisher": "Sony Interactive Entertainment",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Thai"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/demonsoulsremake/thumbnail.png",
+        "cover": "/assets/demonsoulsremake/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/demonsoulsremake/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/demonsoulsremake/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/demonsoulsremake/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://www.youtube.com/embed/2TMs2E6cms4?si=82MHrkG0q2Bdoval"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "Animal Well",
+      "description": "Animal Well is a Metroidvania puzzle-platformer developed by Billy Basso as Shared Memory and published by Bigmode. Players control an unnamed blob creature exploring an underground labyrinth filled with mysterious animals, nonlinear platforming, and intricate puzzles. With atmospheric pixel art, unconventional upgrades, and deep secrets, Animal Well offers a unique and immersive experience.",
+      "release_date": "2024-05-09T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 40
+      },
+      "details": {
+        "category": "Puzzle",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Shared Memory",
+        "publisher": "Bigmode",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/animalwell/thumbnail.png",
+        "cover": "/assets/animalwell/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/animalwell/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/animalwell/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/animalwell/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257005943/movie480_vp9.webm?t=1710703946"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "Portal 2",
+      "description": "Portal 2 is a puzzle-platformer developed and published by Valve. Players take on the role of Chell as she navigates the Aperture Science Enrichment Center, solving physics-based puzzles using the portal gun. The game introduces new mechanics like light bridges, gels, and tractor beams, along with a cooperative mode featuring the robots ATLAS and P-Body. With witty dialogue, engaging puzzles, and a deep narrative, Portal 2 is widely regarded as one of the greatest puzzle games of all time.",
+      "release_date": "2011-04-18T00:00:00.000Z",
+      "prices": {
+        "discount": 90,
+        "old": 20,
+        "current": 2
+      },
+      "details": {
+        "category": "Puzzler",
+        "system": ["Steam", "Nintendo Switch"],
+        "developer": "Valve",
+        "publisher": "Valve",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Czech",
+          "Danish",
+          "Dutch",
+          "Finnish",
+          "Hungarian",
+          "Norwegian",
+          "Romanian",
+          "Swedish"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/portal2/thumbnail.png",
+        "cover": "/assets/portal2/cover.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/portal2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/portal2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/portal2/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/5787/movie480.webm?t=1682715616"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/80762/movie480.webm?t=1682715769"
+          }
+        ]
+      }
     }
   ]
 }
