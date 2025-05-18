@@ -38,7 +38,7 @@ server.get('/action', (req, res) => {
   const games = db.get('games')
     .filter(game => {
       const category = game.details.category.toLowerCase()
-      return category.includes('action') || category.includes('adventure')
+      return category.includes('action') || category.includes('adventure') || category.includes('metroidvania')
     })
     .value()
   res.json(games)
@@ -84,6 +84,14 @@ server.get('/sim', (req, res) => {
   const db = router.db
   const games = db.get('games')
     .filter(game => game.details.category.toLowerCase() === 'simulation')
+    .value()
+  res.json(games)
+})
+
+server.get('/puzzle', (req, res) => {
+  const db = router.db
+  const games = db.get('games')
+    .filter(game => game.details.category.toLowerCase() === 'puzzle')
     .value()
   res.json(games)
 })
