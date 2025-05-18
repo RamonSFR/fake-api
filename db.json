@@ -1759,16 +1759,16 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/witcher4/thumbnail.png",
-        "cover": "/assets/witcher4/cover.webp",
+        "thumbnail": "/assets/tw4/thumbnail.png",
+        "cover": "/assets/tw4/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/witcher4/image1.jpg"
+            "url": "/assets/tw4/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/witcher4/image2.jpg"
+            "url": "/assets/tw4/image2.jpg"
           },
           {
             "type": "video",
@@ -1785,7 +1785,7 @@
       "prices": {
         "discount": null,
         "old": null,
-        "current": 54.90
+        "current": 54.9
       },
       "details": {
         "category": "FPS",
@@ -1835,6 +1835,54 @@
           {
             "type": "video",
             "url": "https://video.fastly.steamstatic.com/store_trailers/257030165/movie480_vp9.webm?t=1718087413"
+          }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "name": "Enigma of Fear",
+      "description": "Enigma of Fear is an investigation and mystery game developed by Dumativa and Cellbit. Players take on the role of Mia, a paranormal detective searching for her missing father inside the Perimeter—a place that doesn't exist. With a mix of pixel art and 3D environments, players must analyze clues, solve puzzles, and face terrifying creatures while unraveling the secrets behind the Cult of Fear.",
+      "release_date": "2024-11-28T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 24.99
+      },
+      "details": {
+        "category": "Puzzle",
+        "system": ["Steam"],
+        "developer": "Dumativa, Cellbit",
+        "publisher": "Dumativa, Nuuvem Inc",
+        "languages": [
+          "Portuguese (Brazil)",
+          "English",
+          "Spanish (Latin America)"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/enigmaoffear/thumbnail.png",
+        "cover": "/assets/enigmaoffear/cover.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/enigmaoffear/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/enigmaoffear/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/enigmaoffear/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257076792/movie480_vp9.webm?t=1732837710"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257068192/movie480_vp9.webm?t=1730138612"
           }
         ]
       }
