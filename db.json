@@ -922,7 +922,7 @@
       "prices": {
         "discount": null,
         "old": null,
-        "current": null
+        "current": 70
       },
       "details": {
         "category": "Sports",
@@ -979,7 +979,7 @@
       "prices": {
         "discount": null,
         "old": null,
-        "current": null
+        "current": 70
       },
       "details": {
         "category": "Sports",
