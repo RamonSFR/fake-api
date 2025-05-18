@@ -1440,6 +1440,179 @@
           }
         ]
       }
+    },
+    {
+      "id": 26,
+      "name": "Resident Evil 2",
+      "description": "Resident Evil 2 (2019) is a survival horror game developed and published by Capcom. A remake of the 1998 classic, the game follows rookie police officer Leon S. Kennedy and college student Claire Redfield as they attempt to escape Raccoon City during a zombie outbreak. With modernized gameplay, enhanced visuals, and an over-the-shoulder camera perspective, this reimagining delivers intense horror and immersive storytelling.",
+      "release_date": "2019-01-25T00:00:00.000Z",
+      "prices": {
+        "discount": 75,
+        "old": 40,
+        "current": 10
+      },
+      "details": {
+        "category": "Survival Horror",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/re2/thumbnail.png",
+        "cover": "/assets/re2/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/re2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/re2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/re2/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256741841/movie480.webm?t=1548920979"
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "name": "Resident Evil 4",
+      "description": "Resident Evil 4 (2023) is a survival horror game developed and published by Capcom. A remake of the 2005 classic, the game follows U.S. agent Leon S. Kennedy as he embarks on a mission to rescue the president's kidnapped daughter from a sinister cult in rural Spain. With modernized gameplay, enhanced visuals, and expanded story elements, this reimagining delivers intense action, strategic combat, and immersive horror.",
+      "release_date": "2023-03-24T00:00:00.000Z",
+      "prices": {
+        "discount": 10,
+        "old": 59.99,
+        "current": 53.99
+      },
+      "details": {
+        "category": "Survival Horror",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Arabic"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/re4/thumbnail.png",
+        "cover": "/assets/re4/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/re4/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/re4/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/re4/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256998127/movie480_vp9.webm?t=1730246640"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256938325/movie480_vp9.webm?t=1680071415"
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "name": "Sons of the Forest",
+      "description": "Sons of the Forest is a survival horror game developed by Endnight Games and published by Newnight. Serving as the sequel to The Forest, the game follows a protagonist sent to a mysterious island to search for a missing billionaire and his family. Players must craft, build, and survive against cannibalistic creatures while uncovering ancient secrets buried deep underground. With a vast open world, dynamic seasons, and cooperative multiplayer, Sons of the Forest delivers an intense and immersive survival experience.",
+      "release_date": "2024-02-22T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 30
+      },
+      "details": {
+        "category": "Survival Horror",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Endnight Games",
+        "publisher": "Newnight",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Czech",
+          "Finnish",
+          "Japanese",
+          "Korean",
+          "Polish",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Simplified Chinese",
+          "Swedish",
+          "Traditional Chinese",
+          "Turkish"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/sonsoftheforest/thumbnail.png",
+        "cover": "/assets/sonsoftheforest/cover.png",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/sonsoftheforest/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/sonsoftheforest/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/sonsoftheforest/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256932123/movie480_vp9.webm?t=1677175226"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256880856/movie480_vp9.webm?t=1651692528"
+          }
+        ]
+      }
     }
   ]
 }
