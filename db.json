@@ -860,6 +860,59 @@
           }
         ]
       }
+    },
+    {
+      "id": 16,
+      "name": "Assetto Corsa",
+      "description": "Assetto Corsa is a sim racing game developed by Kunos Simulazioni and published by 505 Games. Designed for realism, the game features laser-scanned tracks, advanced physics, and extensive customization options. With a wide selection of cars, detailed driving mechanics, and support for modding, Assetto Corsa is a benchmark in racing simulation.",
+      "release_date": "2014-12-19T00:00:00.000Z",
+      "prices": {
+        "discount": 75,
+        "old": 20,
+        "current": 5
+      },
+      "details": {
+        "category": "Simulation",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Kunos Simulazioni",
+        "publisher": "505 Games",
+        "languages": [
+          "English",
+          "Italian",
+          "French",
+          "German",
+          "Spanish (Spain)",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Korean",
+          "Japanese",
+          "Polish",
+          "Portuguese",
+          "Russian"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/assettocorsa/thumbnail.png",
+        "cover": "/assets/assettocorsa/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/assettocorsa/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/assettocorsa/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/assettocorsa/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256704196/movie480.webm?t=1513779076"
+          }
+        ]
+      }
     }
   ]
 }

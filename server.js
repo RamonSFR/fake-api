@@ -79,7 +79,7 @@ server.get('/sports', (req, res) => {
 server.get('/sim', (req, res) => {
   const db = router.db.get('games').value()
   const result = db.filter((game) =>
-    game.details.category.toLowerCase() === 'simulator'
+    game.details.category.toLowerCase() === 'simulation'
   )
   res.jsonp(result)
 })
