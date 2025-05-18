@@ -372,7 +372,7 @@
       },
       "media": {
         "thumbnail": "/assets/cyberpunk/thumbnail.jpg",
-        "cover": "/assets/cyberpunk/cover.webp",
+        "cover": "/assets/cyberpunk/cover.avif",
         "gallery": [
           {
             "type": "image",
