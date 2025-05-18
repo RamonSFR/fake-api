@@ -1936,6 +1936,291 @@
           }
         ]
       }
+    },
+    {
+      "id": 35,
+      "name": "Amnesia: The Bunker",
+      "description": "Amnesia: The Bunker is a survival horror game developed and published by Frictional Games. Set in a desolate World War I bunker, players take on the role of French soldier Henri Clément, who must navigate the dark corridors while being stalked by a relentless, AI-driven monster. With limited resources, players must find tools, craft items, and keep the generator running to survive. Featuring a semi-open world, randomized elements, and immersive horror mechanics, Amnesia: The Bunker delivers a tense and unpredictable experience.",
+      "release_date": "2023-06-06T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 24.99
+      },
+      "details": {
+        "category": "Survival Horror",
+        "system": [
+          "Steam",
+          "PS4",
+          "Xbox One",
+          "Xbox Series S/X",
+          "Nintendo Switch"
+        ],
+        "developer": "Frictional Games",
+        "publisher": "Frictional Games",
+        "languages": [
+          "English",
+          "French",
+          "Spanish",
+          "Chinese",
+          "Other languages"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/amtb/thumbnail.png",
+        "cover": "/assets/amnesiathebunker/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/amnesiathebunker/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/amnesiathebunker/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/amnesiathebunker/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256917811/movie480_vp9.webm?t=1683094662"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256978123/movie480_vp9.webm?t=1698238796"
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "name": "Stay Out of the House",
+      "description": "Stay Out of the House is a stealth survival horror game developed and published by Puppet Combo. Players take on the role of Roxanne, who has been kidnapped by a cannibalistic serial killer known as The Butcher. Trapped inside his house, she must evade his traps, uncover secrets, and find a way to escape before time runs out. With VHS-style visuals, dynamic AI, and intense stealth mechanics, the game delivers a terrifying experience inspired by classic slasher films.",
+      "release_date": "2022-10-14T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 14.99
+      },
+      "details": {
+        "category": "Horror",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Puppet Combo",
+        "publisher": "Puppet Combo",
+        "languages": [
+          "English",
+          "French",
+          "Spanish (Spain)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Japanese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/sooth/thumbnail.png",
+        "cover": "/assets/sooth/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/sooth/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/sooth/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/sooth/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256728051/movie480.webm?t=1537022347"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256908718/movie480_vp9.webm?t=1664633281"
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "name": "NBA 2K25",
+      "description": "NBA 2K25 is the latest installment in the NBA 2K series, developed by Visual Concepts and published by 2K. Featuring enhanced ProPlay technology, the game delivers the most realistic basketball experience yet, with improved animations, a new dribble engine, and refined defensive movement. Players can compete in MyCAREER, MyTEAM, and MyNBA, with new-gen platforms offering an expanded City and additional gameplay features.",
+      "release_date": "2024-09-06T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 70
+      },
+      "details": {
+        "category": "Sports",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Visual Concepts",
+        "publisher": "2K",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Dutch",
+          "Turkish",
+          "Arabic"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/2k25/thumbnail.png",
+        "cover": "/assets/2k25/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/2k25/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/2k25/image2.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256904419/movie480_vp9.webm?t=1662480366"
+          }
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "name": "Forza Horizon 5",
+      "description": "Forza Horizon 5 is an open-world racing game developed by Playground Games and published by Xbox Game Studios. Set in a fictionalized representation of Mexico, the game features a vast and diverse map with jungles, beaches, ancient Mayan temples, and an active volcano. Players can explore freely, compete in multiplayer races, and customize cars with extensive tuning options. With dynamic weather, seasonal changes, and ray-traced visuals, Forza Horizon 5 delivers an immersive and exhilarating driving experience.",
+      "release_date": "2021-11-09T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 39.9
+      },
+      "details": {
+        "category": "Sports",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "Playground Games",
+        "publisher": "Xbox Game Studios",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Czech",
+          "Turkish",
+          "Hungarian",
+          "Arabic",
+          "Dutch"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/fh5/thumbnail.png",
+        "cover": "/assets/fh5/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/fh5/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/fh5/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/fh5/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256875134/movie480_vp9.webm?t=1647525311"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256859757/movie480_vp9.webm?t=1636489104"
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "name": "Farming Simulator 25",
+      "description": "Farming Simulator 25 is the latest installment in the popular farming simulation series, developed and published by GIANTS Software. Players take on the role of a modern farmer, managing crops, livestock, and production chains across three diverse environments: North America, East Asia, and Central Europe. With new crops like rice, spinach, peas, and green beans, expanded livestock options including goats and water buffalo, and enhanced mechanics such as GPS-assisted steering and ground deformation, the game offers a deeply immersive farming experience.",
+      "release_date": "2024-11-12T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": null
+      },
+      "details": {
+        "category": "Simulation",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "GIANTS Software",
+        "publisher": "GIANTS Software",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Dutch",
+          "Turkish",
+          "Arabic",
+          "Ukrainian",
+          "Czech",
+          "Serbian"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/farmingsim25/thumbnail.png",
+        "cover": "/assets/farmingsim25/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/farmingsim25/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/farmingsim25/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/farmingsim25/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257073020/movie480_vp9.webm?t=1731509683"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257067301/movie480_vp9.webm?t=1729598537"
+          }
+        ]
+      }
     }
   ]
 }
