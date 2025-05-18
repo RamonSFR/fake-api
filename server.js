@@ -1,89 +1,90 @@
 const jsonServer = require('json-server')
-const server = jsonServer.create()
-const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults()
 const path = require('path')
+const server = jsonServer.create()
+const router = jsonServer.router(path.join(__dirname, 'db.json'))
+const middlewares = jsonServer.defaults({ static: './assets' })
+const PORT = process.env.PORT || 3000
 
 server.use(middlewares)
 server.use(jsonServer.bodyParser)
 
-// Servir arquivos da pasta /assets
-server.use('/assets', jsonServer.static(path.join(__dirname, 'assets')))
-
-// Endpoint personalizado: /promo
+// Endpoint: /promo → jogos com desconto
 server.get('/promo', (req, res) => {
-  const games = router.db.get('games').value()
-  const promoGames = games.filter((game) => game.prices.discount !== null)
-  res.json(promoGames)
+  const db = router.db.get('games').value()
+  const promoGames = db.filter((game) => game.prices.discount !== null)
+  res.jsonp(promoGames)
 })
 
-// Endpoint personalizado: /comingsoon
+// Endpoint: /comingsoon → jogos com prices.current === null
 server.get('/comingsoon', (req, res) => {
-  const games = router.db.get('games').value()
-  const comingSoonGames = games.filter((game) => game.prices.current === null)
-  res.json(comingSoonGames)
+  const db = router.db.get('games').value()
+  const comingSoonGames = db.filter((game) => game.prices.current === null)
+  res.jsonp(comingSoonGames)
 })
 
-// Endpoint personalizado: /highlight
+// Endpoint: /highlight → retorna um game aleatório
 server.get('/highlight', (req, res) => {
-  const games = router.db.get('games').value()
-  const random = games[Math.floor(Math.random() * games.length)]
-  res.json(random)
+  const db = router.db.get('games').value()
+  const random = db[Math.floor(Math.random() * db.length)]
+  res.jsonp(random)
 })
 
-// Filtros por categoria
+// Endpoint: /action → "action" ou "adventure" na category
 server.get('/action', (req, res) => {
-  const games = router.db.get('games').value()
-  const filtered = games.filter((game) =>
-    game.details.category.toLowerCase().includes('action') ||
-    game.details.category.toLowerCase().includes('adventure')
-  )
-  res.json(filtered)
+  const db = router.db.get('games').value()
+  const result = db.filter((game) => {
+    const category = game.details.category.toLowerCase()
+    return category.includes('action') || category.includes('adventure')
+  })
+  res.jsonp(result)
 })
 
+// Endpoint: /rpg
 server.get('/rpg', (req, res) => {
-  const games = router.db.get('games').value()
-  const filtered = games.filter((game) =>
+  const db = router.db.get('games').value()
+  const result = db.filter((game) =>
     game.details.category.toLowerCase().includes('rpg')
   )
-  res.json(filtered)
+  res.jsonp(result)
 })
 
+// Endpoint: /horror
 server.get('/horror', (req, res) => {
-  const games = router.db.get('games').value()
-  const filtered = games.filter((game) =>
+  const db = router.db.get('games').value()
+  const result = db.filter((game) =>
     game.details.category.toLowerCase().includes('horror')
   )
-  res.json(filtered)
+  res.jsonp(result)
 })
 
+// Endpoint: /fps
 server.get('/fps', (req, res) => {
-  const games = router.db.get('games').value()
-  const filtered = games.filter((game) =>
+  const db = router.db.get('games').value()
+  const result = db.filter((game) =>
     game.details.category.toLowerCase() === 'fps'
   )
-  res.json(filtered)
+  res.jsonp(result)
 })
 
+// Endpoint: /sports
 server.get('/sports', (req, res) => {
-  const games = router.db.get('games').value()
-  const filtered = games.filter((game) =>
+  const db = router.db.get('games').value()
+  const result = db.filter((game) =>
     game.details.category.toLowerCase() === 'sports'
   )
-  res.json(filtered)
+  res.jsonp(result)
 })
 
+// Endpoint: /sim
 server.get('/sim', (req, res) => {
-  const games = router.db.get('games').value()
-  const filtered = games.filter((game) =>
-    game.details.category.toLowerCase().includes('simulator')
+  const db = router.db.get('games').value()
+  const result = db.filter((game) =>
+    game.details.category.toLowerCase() === 'simulator'
   )
-  res.json(filtered)
+  res.jsonp(result)
 })
 
-// Rota padrão do json-server
 server.use(router)
-
-server.listen(3000, () => {
-  console.log('JSON Server is running on port 3000')
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`)
 })
