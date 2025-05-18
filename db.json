@@ -1718,11 +1718,123 @@
           },
           {
             "type": "video",
-            "url": "https://video.fastly.steamstatic.com/store_trailers/256904419/movie480_vp9.webm?t=1662480366"
+            "url": "https://www.youtube.com/embed/dlQ3FeNu5Yw?si=-CrC-nVAbKoMUnCQ"
           },
           {
             "type": "video",
-            "url": "https://video.fastly.steamstatic.com/store_trailers/256876061/movie480_vp9.webm?t=1646231431"
+            "url": "https://www.youtube.com/embed/q0vNoRhuV_I?si=diHKSJivksrUHZBl"
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "The Witcher 4",
+      "description": "The Witcher 4 is an upcoming open-world RPG developed by CD Projekt Red and published by CD Projekt. Set after the events of The Witcher 3: Wild Hunt, the game follows Ciri as the new protagonist, navigating a brutal dark-fantasy world filled with monsters, magic, and political intrigue. With a new REDengine 5-powered world, expanded combat mechanics, and deep storytelling, The Witcher 4 marks the beginning of a new trilogy in the franchise.",
+      "release_date": null,
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": null
+      },
+      "details": {
+        "category": "RPG",
+        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "developer": "CD PROJEKT RED",
+        "publisher": "CD PROJEKT RED",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Polish",
+          "Russian",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/witcher4/thumbnail.png",
+        "cover": "/assets/witcher4/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/witcher4/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/witcher4/image2.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://www.youtube.com/embed/yWMu6JeT2g8?si=xLsLoq2Umtem_7OT"
+          }
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "description": "S.T.A.L.K.E.R. 2: Heart of Chornobyl is a first-person shooter with survival horror elements, developed and published by GSC Game World. Set in the post-apocalyptic exclusion zone of Chernobyl, players take on the role of Yevhen 'Skif' Martynenko, a veteran of the Ukrainian Marine Corps, as he uncovers the mysteries of the Zone. With dynamic survival mechanics, deep exploration, and a non-linear story, the game offers an immersive and atmospheric experience.",
+      "release_date": "2024-11-20T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 54.90
+      },
+      "details": {
+        "category": "FPS",
+        "system": ["Steam", "Xbox Series S/X"],
+        "developer": "GSC Game World",
+        "publisher": "GSC Game World",
+        "languages": [
+          "English",
+          "Ukrainian",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Polish",
+          "Czech",
+          "Turkish",
+          "Serbian",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Arabic",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Japanese",
+          "Korean"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/stalker2/thumbnail.png",
+        "cover": "/assets/stalker2/cover.jpg",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/stalker2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/stalker2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/stalker2/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257065836/movie480_vp9.webm?t=1730568120"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/257030165/movie480_vp9.webm?t=1718087413"
           }
         ]
       }
