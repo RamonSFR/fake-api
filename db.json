@@ -1528,7 +1528,7 @@
       },
       "media": {
         "thumbnail": "/assets/re4/thumbnail.png",
-        "cover": "/assets/re4/cover.avif",
+        "cover": "/assets/re4/cover.webp",
         "gallery": [
           {
             "type": "image",
@@ -1883,6 +1883,56 @@
           {
             "type": "video",
             "url": "https://video.fastly.steamstatic.com/store_trailers/257068192/movie480_vp9.webm?t=1730138612"
+          }
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "name": "Blasphemous",
+      "description": "Blasphemous is a Metroidvania action-adventure game developed by The Game Kitchen and published by Team17. Set in the dark, gothic world of Cvstodia, players take on the role of The Penitent One, a silent knight wielding the sword Mea Culpa. Trapped in an endless cycle of death and rebirth, he must battle grotesque creatures, uncover ancient secrets, and seek redemption. With brutal combat, intricate exploration, and deep lore inspired by religious themes, Blasphemous delivers a haunting and immersive experience.",
+      "release_date": "2019-09-10T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 20
+      },
+      "details": {
+        "category": "Metroidvania",
+        "system": ["Steam", "Android", "Switch"],
+        "developer": "The Game Kitchen",
+        "publisher": "Team17",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Japanese",
+          "Simplified Chinese"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/blasphemous/thumbnail.png",
+        "cover": "/assets/blasphemous/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/blasphemous/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/blasphemous/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/blasphemous/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256862734/movie480_vp9.webm?t=1639048728"
           }
         ]
       }
