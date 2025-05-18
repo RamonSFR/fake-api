@@ -1667,6 +1667,65 @@
           }
         ]
       }
+    },
+    {
+      "id": 30,
+      "name": "Alan Wake 2",
+      "description": "Alan Wake 2 is a survival horror game developed by Remedy Entertainment and published by Epic Games Publishing. The sequel to Alan Wake (2010), the game follows best-selling novelist Alan Wake, who has been trapped in an alternate dimension for 13 years, as he attempts to escape by writing a horror story involving FBI Special Agent Saga Anderson. With psychological horror elements, deep storytelling, and immersive gameplay, Alan Wake 2 delivers a thrilling experience.",
+      "release_date": "2023-10-27T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 60
+      },
+      "details": {
+        "category": "Survival Horror",
+        "system": ["Epic", "PS5", "Xbox Series S/X"],
+        "developer": "Remedy Entertainment",
+        "publisher": "Epic Games Publishing",
+        "languages": [
+          "English",
+          "French",
+          "German",
+          "Spanish (Spain)",
+          "Japanese",
+          "Italian",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Polish",
+          "Russian",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Ukrainian"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/alanwake2/thumbnail.png",
+        "cover": "/assets/alanwake2/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/alanwake2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/alanwake2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/alanwake2/image3.png"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256904419/movie480_vp9.webm?t=1662480366"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256876061/movie480_vp9.webm?t=1646231431"
+          }
+        ]
+      }
     }
   ]
 }
