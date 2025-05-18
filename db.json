@@ -1588,20 +1588,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/sonsoftheforest/thumbnail.png",
+        "thumbnail": "/assets/sotf/thumbnail.png",
         "cover": "/assets/sonsoftheforest/cover.png",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/sonsoftheforest/image1.jpg"
+            "url": "/assets/sotf/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/sonsoftheforest/image2.jpg"
+            "url": "/assets/sotf/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/sonsoftheforest/image3.jpg"
+            "url": "/assets/sotf/image3.jpg"
           },
           {
             "type": "video",
