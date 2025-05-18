@@ -1968,19 +1968,19 @@
       },
       "media": {
         "thumbnail": "/assets/amtb/thumbnail.png",
-        "cover": "/assets/amnesiathebunker/cover.avif",
+        "cover": "/assets/amtb/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/amnesiathebunker/image1.jpg"
+            "url": "/assets/amtb/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/amnesiathebunker/image2.jpg"
+            "url": "/assets/amtb/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/amnesiathebunker/image3.jpg"
+            "url": "/assets/amtb/image3.jpg"
           },
           {
             "type": "video",
