@@ -1244,20 +1244,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/darksoulsremastered/thumbnail.png",
-        "cover": "/assets/darksoulsremastered/cover.webp",
+        "thumbnail": "/assets/darksouls/thumbnail.png",
+        "cover": "/assets/darksouls/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/darksoulsremastered/image1.jpg"
+            "url": "/assets/darksouls/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/darksoulsremastered/image2.jpg"
+            "url": "/assets/darksouls/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/darksoulsremastered/image3.jpg"
+            "url": "/assets/darksouls/image3.jpg"
           },
           {
             "type": "video",
@@ -1268,7 +1268,7 @@
     },
     {
       "id": 23,
-      "name": "Demon's Souls Remake",
+      "name": "Demon's Souls",
       "description": "Demon's Souls Remake is a reimagining of the 2009 classic, developed by Bluepoint Games and published by Sony Interactive Entertainment. Set in the cursed kingdom of Boletaria, players take on the role of a lone warrior battling nightmarish creatures and powerful demons. With stunning visuals, refined mechanics, and immersive sound design, this remake preserves the brutal challenge and deep lore of the original while enhancing the experience for modern audiences.",
       "release_date": "2020-11-12T00:00:00.000Z",
       "prices": {
@@ -1299,20 +1299,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/demonsoulsremake/thumbnail.png",
-        "cover": "/assets/demonsoulsremake/cover.avif",
+        "thumbnail": "/assets/demonsouls/thumbnail.png",
+        "cover": "/assets/demonsouls/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/demonsoulsremake/image1.jpg"
+            "url": "/assets/demonsouls/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/demonsoulsremake/image2.jpg"
+            "url": "/assets/demonsouls/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/demonsoulsremake/image3.jpg"
+            "url": "/assets/demonsouls/image3.jpg"
           },
           {
             "type": "video",
@@ -1386,7 +1386,7 @@
         "current": 2
       },
       "details": {
-        "category": "Puzzler",
+        "category": "Puzzle",
         "system": ["Steam", "Nintendo Switch"],
         "developer": "Valve",
         "publisher": "Valve",
