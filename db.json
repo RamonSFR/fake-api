@@ -2221,6 +2221,141 @@
           }
         ]
       }
+    },
+    {
+      "id": 40,
+      "name": "Euro Truck Simulator 2",
+      "description": "Euro Truck Simulator 2 is a truck-driving simulation game developed and published by SCS Software. Players take on the role of a truck driver, transporting cargo across a detailed recreation of Europe. The game features licensed trucks, extensive customization options, and a dynamic economy system that allows players to build their own transportation company. With realistic driving physics, modding support, and a vast open world, Euro Truck Simulator 2 offers an immersive trucking experience.",
+      "release_date": "2012-10-19T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 10
+      },
+      "details": {
+        "category": "Simulation",
+        "system": ["Steam"],
+        "developer": "SCS Software",
+        "publisher": "SCS Software",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Dutch",
+          "Turkish",
+          "Czech",
+          "Hungarian",
+          "Romanian",
+          "Swedish",
+          "Finnish",
+          "Norwegian",
+          "Danish",
+          "Greek",
+          "Bulgarian",
+          "Ukrainian",
+          "Serbian",
+          "Arabic"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/eurotrucksimulator2/thumbnail.png",
+        "cover": "/assets/eurotrucksimulator2/cover.webp",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/eurotrucksimulator2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/eurotrucksimulator2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/eurotrucksimulator2/image3.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256882174/movie480_vp9.webm?t=1683632053"
+          }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "name": "A Plague Tale: Requiem",
+      "description": "A Plague Tale: Requiem is a 2022 action-adventure stealth game developed by Asobo Studio and published by Focus Entertainment. The sequel to *A Plague Tale: Innocence*, the game follows siblings Amicia and Hugo de Rune as they search for a cure to Hugo's blood disease while fleeing soldiers of the Inquisition and hordes of plague-spreading rats. With expanded combat mechanics, larger environments, and supernatural elements, the game delivers an intense and emotional journey.",
+      "release_date": "2022-10-18T00:00:00.000Z",
+      "prices": {
+        "discount": null,
+        "old": null,
+        "current": 39.90
+      },
+      "details": {
+        "category": "Action-Adventure",
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
+        "developer": "Asobo Studio",
+        "publisher": "Focus Entertainment",
+        "languages": [
+          "English",
+          "French",
+          "Italian",
+          "German",
+          "Spanish (Spain)",
+          "Spanish (Latin America)",
+          "Portuguese (Brazil)",
+          "Russian",
+          "Polish",
+          "Japanese",
+          "Korean",
+          "Simplified Chinese",
+          "Traditional Chinese",
+          "Czech",
+          "Arabic"
+        ]
+      },
+      "media": {
+        "thumbnail": "/assets/plaguetale2/thumbnail.png",
+        "cover": "/assets/plaguetale2/cover.avif",
+        "gallery": [
+          {
+            "type": "image",
+            "url": "/assets/plaguetale2/image1.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/plaguetale2/image2.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/plaguetale2/image3.jpg"
+          },
+          {
+            "type": "image",
+            "url": "/assets/plaguetale2/image4.jpg"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256907951/movie480_vp9.webm?t=1664291114"
+          },
+          {
+            "type": "video",
+            "url": "https://video.fastly.steamstatic.com/store_trailers/256901415/movie480_vp9.webm?t=1660826120"
+          }
+        ]
+      }
     }
   ]
 }
