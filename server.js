@@ -92,34 +92,35 @@ app.get('/checkout', (req, res) => {
     products: [
       {
         id: 1,
-        price: 0,
-      },
+        price: 0
+      }
     ],
     billing: {
       name: 'string',
       email: 'string',
-      document: 'string',
+      phone: 'string'
     },
     delivery: {
-      email: 'string',
+      address: 'string',
+      zipCode: 'string',
+      email: 'string'
     },
     payment: {
       card: {
         active: true,
         owner: {
-          name: 'string',
-          document: 'string',
+          name: 'string'
         },
         name: 'string',
         number: 'string',
         expires: {
           month: 12,
-          year: 1234,
+          year: 2025
         },
-        code: 123,
+        code: 123
       },
-      installments: 1,
-    },
+      installments: 1
+    }
   }
   res.status(200).json(payload)
 })
@@ -131,8 +132,11 @@ app.post('/checkout', (req, res) => {
     return res.status(400).json({ message: 'Reveja os dados enviados' })
   }
 
-  if (body.payment.card.active && !body.payment.card.number) {
-    return res.status(400).json({ message: 'Reveja os dados enviados' })
+  if (body.payment.card.active) {
+    const card = body.payment.card
+    if (!card.number || !card.name || !card.expires || !card.code) {
+      return res.status(400).json({ message: 'Dados do cartão incompletos' })
+    }
   }
 
   const orderId = `#100${Math.floor(Math.random() * 10000)}`
