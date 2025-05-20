@@ -1,32 +1,46 @@
 const express = require('express')
+const jsonServer = require('json-server')
 const cors = require('cors')
-const bodyParser = require('body-parser')
-const fs = require('fs')
 const path = require('path')
+const fs = require('fs')
 
 const app = express()
-const PORT = process.env.PORT || 3000
+const router = jsonServer.router('db.json')
+const middlewares = jsonServer.defaults()
+const port = process.env.PORT || 3000
 
 app.use(cors())
-app.use(bodyParser.json())
+app.use(express.json())
+app.use(middlewares)
 app.use('/assets', express.static(path.join(__dirname, 'assets')))
 
-const db = JSON.parse(fs.readFileSync('./db.json', 'utf-8'))
+const dbFile = path.join(__dirname, 'db.json')
+const db = JSON.parse(fs.readFileSync(dbFile, 'utf-8'))
 
-app.get('/games', (req, res) => {
-  res.json(db.games)
+app.get('/highlight', (req, res) => {
+  const db = router.db
+  const games = db.get('games').value()
+  const randomGame = games[Math.floor(Math.random() * games.length)]
+  res.json(randomGame)
 })
 
-app.get('/games/:id', (req, res) => {
-  const game = db.games.find((g) => g.id === parseInt(req.params.id))
-  res.json(game || {})
+app.get('/comingsoon', (req, res) => {
+  const filtered = db.games.filter((g) => g.prices.current === null)
+  res.json(filtered)
+})
+
+app.get('/onsale', (req, res) => {
+  const filtered = db.games.filter((g) =>
+    g.prices.old !== null && g.prices.current !== null
+  )
+  res.json(filtered)
 })
 
 app.get('/action', (req, res) => {
-  const filtered = db.games.filter((g) =>
-    g.details.category.toLowerCase().includes('action') ||
-    g.details.category.toLowerCase().includes('adventure')
-  )
+  const filtered = db.games.filter((g) => {
+    const cat = g.details.category.toLowerCase()
+    return cat.includes('action') || cat.includes('adventure')
+  })
   res.json(filtered)
 })
 
@@ -61,68 +75,72 @@ app.get('/sports', (req, res) => {
 
 app.get('/sim', (req, res) => {
   const filtered = db.games.filter((g) =>
-    g.details.category.toLowerCase() === 'simulator'
+    g.details.category.toLowerCase() === 'simulation'
   )
   res.json(filtered)
 })
 
-function validate(body) {
-  if (!body) return false
-
-  let isValid = true
-  try {
-    if (body.payment.card.active) {
-      isValid = body.payment.card.number.length > 0
-    }
-    if (body.products.length === 0) {
-      isValid = false
-    }
-  } catch (e) {
-    return false
-  }
-  return isValid
-}
+app.get('/puzzle', (req, res) => {
+  const filtered = db.games.filter((g) =>
+    g.details.category.toLowerCase().includes('puzzle')
+  )
+  res.json(filtered)
+})
 
 app.get('/checkout', (req, res) => {
-  res.status(200).json({
-    products: [{ id: 1, price: 0 }],
+  const payload = {
+    products: [
+      {
+        id: 1,
+        price: 0,
+      },
+    ],
     billing: {
       name: 'string',
       email: 'string',
-      document: 'string'
+      document: 'string',
     },
     delivery: {
-      email: 'string'
+      email: 'string',
     },
     payment: {
       card: {
         active: true,
         owner: {
           name: 'string',
-          document: 'string'
+          document: 'string',
         },
         name: 'string',
         number: 'string',
         expires: {
           month: 12,
-          year: 1234
+          year: 1234,
         },
-        code: 123
+        code: 123,
       },
-      installments: 1
-    }
-  })
+      installments: 1,
+    },
+  }
+  res.status(200).json(payload)
 })
 
 app.post('/checkout', (req, res) => {
-  if (validate(req.body)) {
-    const randomId = parseInt((Math.random() * 10000).toFixed(), 10)
-    res.status(201).json({ orderId: `#100${randomId}` })
-  } else {
-    res.status(400).json({ message: 'Reveja os dados enviados' })
+  const body = req.body
+
+  if (!body || !body.products || body.products.length === 0) {
+    return res.status(400).json({ message: 'Reveja os dados enviados' })
   }
+
+  if (body.payment.card.active && !body.payment.card.number) {
+    return res.status(400).json({ message: 'Reveja os dados enviados' })
+  }
+
+  const orderId = `#100${Math.floor(Math.random() * 10000)}`
+  res.status(201).json({ orderId })
 })
 
-app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`)
+app.use(router)
+
+app.listen(port, () => {
+  console.log(`JSON Server is running on http://localhost:${port}`)
 })
