@@ -143,6 +143,15 @@ app.post('/checkout', (req, res) => {
   res.status(201).json({ orderId })
 })
 
+app.get('/search/:query', (req, res) => {
+  const query = req.params.query.toLowerCase().replace(/-/g, ' ')
+  const filtered = db.games.filter((g) =>
+    g.name.toLowerCase().includes(query)
+  )
+  res.json(filtered)
+})
+
+
 app.use(router)
 
 app.listen(port, () => {
