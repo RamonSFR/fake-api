@@ -4,19 +4,15 @@ const bodyParser = require('body-parser')
 const fs = require('fs')
 const path = require('path')
 
-// Configurações
 const app = express()
 const PORT = process.env.PORT || 3000
 
-// Middlewares
 app.use(cors())
 app.use(bodyParser.json())
 app.use('/assets', express.static(path.join(__dirname, 'assets')))
 
-// Importa o banco de dados JSON
 const db = JSON.parse(fs.readFileSync('./db.json', 'utf-8'))
 
-// Endpoints
 app.get('/games', (req, res) => {
   res.json(db.games)
 })
@@ -26,7 +22,6 @@ app.get('/games/:id', (req, res) => {
   res.json(game || {})
 })
 
-// Filtros
 app.get('/action', (req, res) => {
   const filtered = db.games.filter((g) =>
     g.details.category.toLowerCase().includes('action') ||
@@ -71,7 +66,6 @@ app.get('/sim', (req, res) => {
   res.json(filtered)
 })
 
-// Checkout
 function validate(body) {
   if (!body) return false
 
@@ -129,7 +123,6 @@ app.post('/checkout', (req, res) => {
   }
 })
 
-// Inicia o servidor
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`)
 })
