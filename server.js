@@ -15,10 +15,15 @@ app.use(middlewares)
 app.use('/assets', express.static(path.join(__dirname, 'src/assets')))
 app.use('/eplay/assets', express.static(path.join(__dirname, 'src/assets/eplay')))
 
-const dbEplayPath = path.join(__dirname, 'src/mocks/eplay/db.json')
+app.use('/assets', express.static(path.join(__dirname, 'src/assets')))
+app.use('/efood/assets', express.static(path.join(__dirname, 'src/assets/efood')))
 
-// Carregar banco de dados da EPLAY
+
+const dbEplayPath = path.join(__dirname, 'src/mocks/eplay/db.json')
 const dbEplay = JSON.parse(fs.readFileSync(dbEplayPath, 'utf-8'))
+
+const dbEfoodPath = path.join(__dirname, 'src/mocks/efood/db.json')
+const dbEfood = JSON.parse(fs.readFileSync(dbEfoodPath, 'utf-8'))
 
 // -------------------- EPLAY ENDPOINTS --------------------
 
@@ -159,6 +164,9 @@ app.post('/eplay/checkout', (req, res) => {
 
 const eplayRouter = jsonServer.router(dbEplay)
 app.use('/eplay', eplayRouter)
+
+const efoodRouter = jsonServer.router(dbEfood)
+app.use('/efood', efoodRouter)
 
 app.listen(port, () => {
   console.log(`Fake API is running on http://localhost:${port}`)

@@ -1,3 +1,476 @@
 {
-    "restaurants": []
+  "restaurants": [
+    {
+      "id": 1,
+      "title": "Bella Tavola Italiana",
+      "type": "Italian",
+      "review": 4.5,
+      "description": "Authentic Italian cuisine with a modern twist. Enjoy our handmade pasta and wood-fired pizzas.",
+      "cover": "/assets/bella_tavola_italiana/cover.jpeg",
+      "menu": [
+        {
+          "picture": "/assets/bella_tavola_italiana/1.jpg",
+          "price": 12.99,
+          "id": 1,
+          "name": "Ravioli al Tartufo Nero",
+          "description": "Ravioli al Tartufo Nero is an exquisite handmade pasta dish that celebrates the rich, earthy flavors of the Italian black truffle. Each ravioli is carefully filled with a blend of fresh ricotta, parmesan and grated black truffle, providing a combination of smooth textures and irresistible aromas.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/bella_tavola_italiana/2.jpg",
+          "price": 14.99,
+          "id": 2,
+          "name": "Spaghetti alla Carbonara",
+          "description": "Spaghetti alla Carbonara is a classic Italian dish made with al dente spaghetti pasta topped with a rich, creamy sauce made with eggs, pecorino Romano cheese, pancetta and black pepper. A delicious and comforting dish that will take you straight to Italy.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/bella_tavola_italiana/3.jpg",
+          "price": 20,
+          "id": 3,
+          "name": "Risotto ai Funghi Porcini",
+          "description": "Risotto ai Funghi Porcini is a creamy and flavorful Italian rice dish made with Arborio rice, fresh porcini mushrooms, white wine, and parmesan cheese. The dish is cooked slowly to achieve a creamy texture, allowing the flavors of the mushrooms to infuse into the rice.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/bella_tavola_italiana/4.jpg",
+          "price": 25.9,
+          "id": 4,
+          "name": "Ossobuco alla Milanese",
+          "description": "Ossobuco alla Milanese is a traditional Italian dish from Milan, featuring braised veal shanks cooked slowly with white wine, broth, and aromatic vegetables. The meat becomes tender and flavorful, while the marrow in the bone adds richness to the dish. Served with gremolata and saffron risotto.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/bella_tavola_italiana/5.jpg",
+          "price": 22.5,
+          "id": 5,
+          "name": "Melanzane alla Parmigiana",
+          "description": "Melanzane alla Parmigiana is a delicious eggplant dish layered with homemade tomato sauce, mozzarella and parmesan cheese, and baked until golden and bubbly. A tasty and comforting option, perfect for vegetable and cheese lovers.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/bella_tavola_italiana/6.jpg",
+          "price": 18.5,
+          "id": 6,
+          "name": "Frutti di Mare Linguine",
+          "description": "Frutti di Mare Linguine is a true celebration of the flavors of the sea, featuring a generous mix of fresh seafood such as shrimp, squid, clams and scallops, combined with al dente linguine pasta and a flavorful tomato and white wine sauce. A delicious option for seafood lovers.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/bella_tavola_italiana/7.jpg",
+          "price": 12.5,
+          "id": 7,
+          "name": "Insalata Caprese",
+          "description": "Insalata Caprese is a fresh and vibrant Italian salad made with ripe tomatoes, creamy mozzarella cheese, fresh basil leaves, and a drizzle of extra virgin olive oil. A simple yet delicious dish that highlights the flavors of summer.",
+          "serving": "1 to 2 persons"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "La Trattoria Romana",
+      "type": "Italian",
+      "review": 4.7,
+      "description": "Authentic Roman cuisine served with tradition and soul. Discover the flavors of Rome with handcrafted pasta, slow-cooked meats, and timeless Italian classics made with fresh, regional ingredients. A true Roman dining experience in every bite.",
+      "cover": "/assets/la_trattoria_romana/cover.jpg",
+      "menu": [
+        {
+          "picture": "/assets/la_trattoria_romana/1.jpg",
+          "price": 13.5,
+          "id": 1,
+          "name": "Cacio e Pepe",
+          "description": "Creamy pasta with pecorino Romano and freshly ground black pepper. A simple, comforting Roman classic.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/la_trattoria_romana/2.webp",
+          "price": 21,
+          "id": 2,
+          "name": "Saltimbocca alla Romana",
+          "description": "Tender veal cutlets topped with prosciutto and sage, cooked in white wine. A flavorful Roman specialty.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/la_trattoria_romana/3.jpg",
+          "price": 9,
+          "id": 3,
+          "name": "Supplì al Telefono",
+          "description": "Crispy fried rice balls stuffed with mozzarella and tomato sauce — stretchy, cheesy, and delicious.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/la_trattoria_romana/4.jpg",
+          "price": 15.75,
+          "id": 4,
+          "name": "Tonnarelli alla Gricia",
+          "description": "A rich pasta dish with crispy guanciale, pecorino cheese, and black pepper — a pre-carbonara favorite.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/la_trattoria_romana/5.webp",
+          "price": 26,
+          "id": 5,
+          "name": "Abbacchio al Forno",
+          "description": "Oven-roasted baby lamb seasoned with garlic and rosemary, served with golden roasted potatoes.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/la_trattoria_romana/6.avif",
+          "price": 11.5,
+          "id": 6,
+          "name": "Carciofi alla Romana",
+          "description": "Braised artichokes stuffed with herbs and garlic, gently cooked in olive oil and white wine.",
+          "serving": "1 to 2 persons"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Taco Loco",
+      "type": "Mexican",
+      "review": 4.8,
+      "description": "A vibrant Mexican eatery bringing you the bold flavors of Mexico. From sizzling street tacos to comforting tamales, every bite is packed with spice and tradition. Experience the fiesta with our handcrafted plates made from fresh, authentic ingredients.",
+      "cover": "/assets/taco_loco/cover.jpg",
+      "menu": [
+        {
+          "picture": "/assets/taco_loco/1.webp",
+          "price": 10.5,
+          "id": 1,
+          "name": "Tacos al Pastor",
+          "description": "Marinated pork cooked on a vertical spit, served on corn tortillas with pineapple, onion, and fresh cilantro.",
+          "serving": "3 tacos"
+        },
+        {
+          "picture": "/assets/taco_loco/2.webp",
+          "price": 12.0,
+          "id": 2,
+          "name": "Chiles Rellenos",
+          "description": "Roasted poblano peppers stuffed with cheese and seasoned meat, battered and fried, topped with a rich tomato sauce.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/taco_loco/3.jpg",
+          "price": 9.0,
+          "id": 3,
+          "name": "Tamales de Pollo",
+          "description": "Corn masa stuffed with shredded chicken and salsa verde, wrapped in corn husks and steamed to perfection.",
+          "serving": "2 tamales"
+        },
+        {
+          "picture": "/assets/taco_loco/4.jpg",
+          "price": 15.75,
+          "id": 4,
+          "name": "Enchiladas Suizas",
+          "description": "Rolled corn tortillas filled with chicken and covered in a creamy green tomatillo sauce, topped with melted cheese.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/taco_loco/5.jpg",
+          "price": 18.0,
+          "id": 5,
+          "name": "Carne Asada",
+          "description": "Grilled steak seasoned with citrus and spices, served with rice, beans, and warm flour tortillas.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/taco_loco/6.jpg",
+          "price": 7.5,
+          "id": 6,
+          "name": "Elote",
+          "description": "Grilled corn on the cob slathered with mayo, lime juice, chili powder, and cotija cheese.",
+          "serving": "1 person"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Sakura Station",
+      "type": "Japanese",
+      "review": 4.9,
+      "description": "A culinary journey through Japan, offering elegant sushi, warm ramen, and delicate flavors crafted with precision. Experience the harmony of taste and tradition with our carefully curated dishes, made from the finest, freshest ingredients.",
+      "cover": "/assets/sakura_station/cover.jpg",
+      "menu": [
+        {
+          "picture": "/assets/sakura_station/1.jpg",
+          "price": 16.0,
+          "id": 1,
+          "name": "Sushi Moriwase",
+          "description": "An assorted selection of fresh nigiri and maki rolls, showcasing premium seafood and delicate flavors.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/sakura_station/2.jpg",
+          "price": 13.5,
+          "id": 2,
+          "name": "Tonkotsu Ramen",
+          "description": "Rich pork bone broth with tender chashu, soft-boiled egg, green onions, and fresh ramen noodles.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/sakura_station/3.webp",
+          "price": 10.0,
+          "id": 3,
+          "name": "Karaage",
+          "description": "Crispy Japanese fried chicken, marinated in soy sauce and ginger, served with a side of creamy mayo.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/sakura_station/4.jpg",
+          "price": 18.75,
+          "id": 4,
+          "name": "Unagi Don",
+          "description": "Grilled eel glazed with a savory-sweet tare sauce, served over a bed of steamed rice.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/sakura_station/5.jpg",
+          "price": 14.0,
+          "id": 5,
+          "name": "Okonomiyaki",
+          "description": "Savory Japanese pancake filled with cabbage, pork, and topped with bonito flakes, mayo, and okonomiyaki sauce.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/sakura_station/6.webp",
+          "price": 8.5,
+          "id": 6,
+          "name": "Matcha Ice Cream",
+          "description": "Creamy green tea ice cream with a delicate balance of bitterness and sweetness.",
+          "serving": "1 person"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Oasis Bites",
+      "type": "Arabic",
+      "review": 4.8,
+      "description": "A warm and inviting Middle Eastern eatery offering a fusion of rich flavors and aromatic spices. Enjoy handcrafted dishes inspired by centuries of tradition, from sizzling kebabs to delicate mezze, all made with fresh, high-quality ingredients.",
+      "cover": "/assets/oasis_bites/cover.jpg",
+      "menu": [
+        {
+          "picture": "/assets/oasis_bites/1.webp",
+          "price": 14.0,
+          "id": 1,
+          "name": "Shish Tawook",
+          "description": "Tender, marinated chicken skewers grilled to perfection, served with garlic sauce, pickles, and warm pita bread.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/oasis_bites/2.jpeg",
+          "price": 12.5,
+          "id": 2,
+          "name": "Lamb Kofta",
+          "description": "Seasoned ground lamb kebabs infused with aromatic spices, grilled and served with fragrant saffron rice.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/oasis_bites/3.jpg",
+          "price": 9.5,
+          "id": 3,
+          "name": "Hummus with Pita",
+          "description": "Creamy chickpea and tahini dip drizzled with olive oil, served with warm, fluffy pita bread.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/oasis_bites/4.jpg",
+          "price": 16.0,
+          "id": 4,
+          "name": "Mansaf",
+          "description": "Traditional Jordanian dish with slow-cooked lamb in a savory yogurt sauce, served over aromatic rice.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/oasis_bites/5.jpg",
+          "price": 11.75,
+          "id": 5,
+          "name": "Falafel Platter",
+          "description": "Crispy golden falafel made from chickpeas and fresh herbs, served with tahini sauce and fresh vegetables.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/oasis_bites/6.png",
+          "price": 7.25,
+          "id": 6,
+          "name": "Baklava",
+          "description": "Layers of crispy phyllo pastry filled with chopped nuts and drizzled with sweet, fragrant honey syrup.",
+          "serving": "1 person"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Nori & Rice",
+      "type": "Japanese",
+      "review": 4.9,
+      "description": "A modern take on traditional Japanese cuisine, blending fresh sushi, comforting rice bowls, and elegant flavors. Experience the essence of Japan through carefully crafted dishes made with the highest-quality ingredients.",
+      "cover": "/assets/nori_and_rice/cover.avif",
+      "menu": [
+        {
+          "picture": "/assets/nori_and_rice/1.jpg",
+          "price": 18.0,
+          "id": 1,
+          "name": "Salmon Sashimi Platter",
+          "description": "Premium slices of fresh salmon sashimi, served with wasabi, pickled ginger, and soy sauce.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/nori_and_rice/2.jpg",
+          "price": 14.5,
+          "id": 2,
+          "name": "Gyudon",
+          "description": "A hearty rice bowl topped with thinly sliced beef simmered in a savory-sweet sauce with onions.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/nori_and_rice/3.jpg",
+          "price": 12.0,
+          "id": 3,
+          "name": "Ebi Tempura",
+          "description": "Crispy battered shrimp tempura, served with a light dipping sauce and grated daikon radish.",
+          "serving": "1 to 2 persons"
+        },
+        {
+          "picture": "/assets/nori_and_rice/4.jpg",
+          "price": 20.75,
+          "id": 4,
+          "name": "Chirashi Sushi",
+          "description": "A vibrant bowl of sushi rice topped with assorted fresh sashimi, pickled vegetables, and nori.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/nori_and_rice/5.webp",
+          "price": 13.0,
+          "id": 5,
+          "name": "Miso Black Cod",
+          "description": "Tender black cod marinated in sweet miso glaze, grilled until perfectly caramelized.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/nori_and_rice/6.jpg",
+          "price": 9.5,
+          "id": 6,
+          "name": "Dorayaki",
+          "description": "Fluffy Japanese pancakes filled with sweet red bean paste, a delightful traditional dessert.",
+          "serving": "1 person"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Burger Bureau",
+      "type": "Burger",
+      "review": 4.7,
+      "description": "An investigative approach to burgers—bold flavors, prime ingredients, and expert craftsmanship. Every bite is packed with juicy, grilled perfection, from classic smash burgers to gourmet creations. A crime to miss out on this burger experience!",
+      "cover": "/assets/the_burger_bureau/cover.jpg",
+      "menu": [
+        {
+          "picture": "/assets/the_burger_bureau/1.webp",
+          "price": 12.5,
+          "id": 1,
+          "name": "Classic Bureau Burger",
+          "description": "Grilled beef patty with cheddar cheese, lettuce, tomato, pickles, and secret Bureau sauce, served on a toasted brioche bun.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/the_burger_bureau/2.jpg",
+          "price": 14.75,
+          "id": 2,
+          "name": "Smoked BBQ Burger",
+          "description": "Juicy beef patty with smoked bacon, crispy onion rings, melted gouda, and tangy BBQ sauce.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/the_burger_bureau/3.jpg",
+          "price": 11.0,
+          "id": 3,
+          "name": "Spicy Jalapeño Burger",
+          "description": "Beef patty topped with pepper jack cheese, grilled jalapeños, avocado, and spicy chipotle aioli.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/the_burger_bureau/4.jpg",
+          "price": 30,
+          "id": 4,
+          "name": "The Detective's Wagyu",
+          "description": "Premium Wagyu beef burger with truffle aioli, caramelized onions, and Swiss cheese on a toasted brioche bun.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/the_burger_bureau/5.jpg",
+          "price": 13.5,
+          "id": 5,
+          "name": "Double Bureau Smash",
+          "description": "Two smashed beef patties layered with American cheese, grilled onions, pickles, and classic Bureau sauce.",
+          "serving": "1 person"
+        },
+        {
+          "picture": "/assets/the_burger_bureau/6.jpg",
+          "price": 10.25,
+          "id": 6,
+          "name": "Veggie Undercover",
+          "description": "Plant-based patty with roasted mushrooms, arugula, smoked gouda, and garlic aioli on a whole wheat bun.",
+          "serving": "1 person"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Al Taglio Express",
+      "type": "Pizzeria",
+      "review": 4.8,
+      "description": "Authentic Roman-style pizza served by the slice. Experience the perfect balance of crispy crust, fresh toppings, and bold flavors baked to perfection. Quick, delicious, and crafted for pizza lovers who appreciate quality with speed.",
+      "cover": "/assets/al_taglio_express/cover.jpg",
+      "menu": [
+        {
+          "picture": "/assets/al_taglio_express/1.jpg",
+          "price": 5.0,
+          "id": 1,
+          "name": "Margherita al Taglio",
+          "description": "Classic tomato sauce, fresh mozzarella, basil, and a drizzle of extra virgin olive oil on a crispy Roman-style crust.",
+          "serving": "1 slice"
+        },
+        {
+          "picture": "/assets/al_taglio_express/2.jpg",
+          "price": 6.5,
+          "id": 2,
+          "name": "Quattro Formaggi",
+          "description": "A rich blend of mozzarella, gorgonzola, parmesan, and provolone, melted to perfection on a crisp crust.",
+          "serving": "1 slice"
+        },
+        {
+          "picture": "/assets/al_taglio_express/3.jpg",
+          "price": 7.0,
+          "id": 3,
+          "name": "Prosciutto e Rucola",
+          "description": "Thinly sliced prosciutto with fresh arugula and shaved parmesan, drizzled with balsamic glaze.",
+          "serving": "1 slice"
+        },
+        {
+          "picture": "/assets/al_taglio_express/4.avif",
+          "price": 6.75,
+          "id": 4,
+          "name": "Diavola",
+          "description": "Spicy salami, tomato sauce, mozzarella, and a touch of chili oil for an extra kick.",
+          "serving": "1 slice"
+        },
+        {
+          "picture": "/assets/al_taglio_express/5.avif",
+          "price": 8.0,
+          "id": 5,
+          "name": "Funghi e Tartufo",
+          "description": "Mushrooms and black truffle oil blended with creamy mozzarella on a Roman-style crust.",
+          "serving": "1 slice"
+        },
+        {
+          "picture": "/assets/al_taglio_express/6.jpg",
+          "price": 5.5,
+          "id": 6,
+          "name": "Patate e Rosmarino",
+          "description": "Thinly sliced potatoes roasted with fresh rosemary and olive oil, a simple but flavorful Roman favorite.",
+          "serving": "1 slice"
+        }
+      ]
+    }
+  ]
 }
