@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 app.use(middlewares)
 
-app.use('/assets', express.static(path.join(__dirname, 'src/assets')))
+app.use('/eplay/assets', express.static(path.join(__dirname, 'src/assets/eplay')))
 
 const dbEplayPath = path.join(__dirname, 'src/mocks/eplay/db.json')
 
