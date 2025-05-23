@@ -5,89 +5,100 @@ const path = require('path')
 const fs = require('fs')
 
 const app = express()
-const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 const port = process.env.PORT || 3000
 
 app.use(cors())
 app.use(express.json())
 app.use(middlewares)
-app.use('/assets', express.static(path.join(__dirname, 'assets')))
 
-const dbFile = path.join(__dirname, 'db.json')
-const db = JSON.parse(fs.readFileSync(dbFile, 'utf-8'))
+app.use('/assets', express.static(path.join(__dirname, 'src/assets')))
 
-app.get('/highlight', (req, res) => {
-  const db = router.db
-  const games = db.get('games').value()
+const dbEplayPath = path.join(__dirname, 'src/mocks/eplay/db.json')
+
+// Carregar banco de dados da EPLAY
+const dbEplay = JSON.parse(fs.readFileSync(dbEplayPath, 'utf-8'))
+
+// -------------------- EPLAY ENDPOINTS --------------------
+
+app.get('/eplay/highlight', (req, res) => {
+  const games = dbEplay.games
   const randomGame = games[Math.floor(Math.random() * games.length)]
   res.json(randomGame)
 })
 
-app.get('/comingsoon', (req, res) => {
-  const filtered = db.games.filter((g) => g.prices.current === null)
+app.get('/eplay/comingsoon', (req, res) => {
+  const filtered = dbEplay.games.filter((g) => g.prices.current === null)
   res.json(filtered)
 })
 
-app.get('/onsale', (req, res) => {
-  const filtered = db.games.filter((g) =>
+app.get('/eplay/onsale', (req, res) => {
+  const filtered = dbEplay.games.filter((g) =>
     g.prices.old !== null && g.prices.current !== null
   )
   res.json(filtered)
 })
 
-app.get('/action', (req, res) => {
-  const filtered = db.games.filter((g) => {
-    const cat = g.details.category.toLowerCase()
+app.get('/eplay/action', (req, res) => {
+  const filtered = dbEplay.games.filter((g) => {
+    const cat = g.details?.category?.toLowerCase() || ''
     return cat.includes('action') || cat.includes('adventure')
   })
   res.json(filtered)
 })
 
-app.get('/rpg', (req, res) => {
-  const filtered = db.games.filter((g) => {
-    const cat = g.details.category.toLowerCase()
+app.get('/eplay/rpg', (req, res) => {
+  const filtered = dbEplay.games.filter((g) => {
+    const cat = g.details?.category?.toLowerCase() || ''
     return cat.includes('rpg') || cat.includes('soulslike')
   })
   res.json(filtered)
 })
 
-app.get('/horror', (req, res) => {
-  const filtered = db.games.filter((g) =>
-    g.details.category.toLowerCase().includes('horror')
+app.get('/eplay/horror', (req, res) => {
+  const filtered = dbEplay.games.filter((g) =>
+    g.details?.category?.toLowerCase().includes('horror')
   )
   res.json(filtered)
 })
 
-app.get('/fps', (req, res) => {
-  const filtered = db.games.filter((g) =>
-    g.details.category.toLowerCase() === 'fps'
+app.get('/eplay/fps', (req, res) => {
+  const filtered = dbEplay.games.filter((g) =>
+    g.details?.category?.toLowerCase() === 'fps'
   )
   res.json(filtered)
 })
 
-app.get('/sports', (req, res) => {
-  const filtered = db.games.filter((g) =>
-    g.details.category.toLowerCase() === 'sports'
+app.get('/eplay/sports', (req, res) => {
+  const filtered = dbEplay.games.filter((g) =>
+    g.details?.category?.toLowerCase() === 'sports'
   )
   res.json(filtered)
 })
 
-app.get('/sim', (req, res) => {
-  const filtered = db.games.filter((g) =>
-    g.details.category.toLowerCase() === 'simulation'
+app.get('/eplay/sim', (req, res) => {
+  const filtered = dbEplay.games.filter((g) =>
+    g.details?.category?.toLowerCase() === 'simulation'
   )
   res.json(filtered)
 })
 
-app.get('/puzzle', (req, res) => {
-  const filtered = db.games.filter((g) =>
-    g.details.category.toLowerCase().includes('puzzle')
+app.get('/eplay/puzzle', (req, res) => {
+  const filtered = dbEplay.games.filter((g) =>
+    g.details?.category?.toLowerCase().includes('puzzle')
   )
   res.json(filtered)
 })
 
-app.get('/checkout', (req, res) => {
+app.get('/eplay/search/:query', (req, res) => {
+  const query = req.params.query.toLowerCase().replace(/-/g, ' ')
+  const filtered = dbEplay.games.filter((g) =>
+    g.name.toLowerCase().includes(query)
+  )
+  res.json(filtered)
+})
+
+app.get('/eplay/checkout', (req, res) => {
   const payload = {
     products: [
       {
@@ -125,7 +136,7 @@ app.get('/checkout', (req, res) => {
   res.status(200).json(payload)
 })
 
-app.post('/checkout', (req, res) => {
+app.post('/eplay/checkout', (req, res) => {
   const body = req.body
 
   if (!body || !body.products || body.products.length === 0) {
@@ -143,17 +154,11 @@ app.post('/checkout', (req, res) => {
   res.status(201).json({ orderId })
 })
 
-app.get('/search/:query', (req, res) => {
-  const query = req.params.query.toLowerCase().replace(/-/g, ' ')
-  const filtered = db.games.filter((g) =>
-    g.name.toLowerCase().includes(query)
-  )
-  res.json(filtered)
-})
+// --------------------------------------------------------
 
-
-app.use(router)
+const eplayRouter = jsonServer.router(dbEplay)
+app.use('/eplay', eplayRouter)
 
 app.listen(port, () => {
-  console.log(`JSON Server is running on http://localhost:${port}`)
+  console.log(`Fake API is running on http://localhost:${port}`)
 })

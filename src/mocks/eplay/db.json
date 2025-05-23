@@ -12,7 +12,11 @@
       },
       "details": {
         "category": "RPG",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Sandfall Interactive",
         "publisher": "Kepler Interactive",
         "languages": [
@@ -31,20 +35,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/expedition33/thumbnail.avif",
-        "cover": "/assets/expedition33/cover.jpg",
+        "thumbnail": "/assets/eplay/expedition33/thumbnail.avif",
+        "cover": "/assets/eplay/expedition33/cover.jpg",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/expedition33/image1.jpg"
+            "url": "/assets/eplay/expedition33/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/expedition33/image2.jpg"
+            "url": "/assets/eplay/expedition33/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/expedition33/image3.jpg"
+            "url": "/assets/eplay/expedition33/image3.jpg"
           },
           {
             "type": "video",
@@ -69,7 +73,10 @@
       },
       "details": {
         "category": "Survival Horror",
-        "system": ["Steam", "PS5"],
+        "system": [
+          "Steam",
+          "PS5"
+        ],
         "developer": "Bloober Team",
         "publisher": "Konami",
         "languages": [
@@ -89,20 +96,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/sh2/thumbnail.avif",
-        "cover": "/assets/sh2/cover.avif",
+        "thumbnail": "/assets/eplay/sh2/thumbnail.avif",
+        "cover": "/assets/eplay/sh2/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/sh2/image1.jpg"
+            "url": "/assets/eplay/sh2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/sh2/image2.jpg"
+            "url": "/assets/eplay/sh2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/sh2/image3.jpg"
+            "url": "/assets/eplay/sh2/image3.jpg"
           },
           {
             "type": "video",
@@ -123,7 +130,11 @@
       },
       "details": {
         "category": "FPS",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Sledghammer Games",
         "publisher": "Activision",
         "languages": [
@@ -145,20 +156,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/mw3/thumbnail.png",
-        "cover": "/assets/mw3/cover.webp",
+        "thumbnail": "/assets/eplay/mw3/thumbnail.png",
+        "cover": "/assets/eplay/mw3/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/mw3/image1.jpg"
+            "url": "/assets/eplay/mw3/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/mw3/image2.jpg"
+            "url": "/assets/eplay/mw3/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/mw3/image3.jpg"
+            "url": "/assets/eplay/mw3/image3.jpg"
           },
           {
             "type": "video",
@@ -179,7 +190,11 @@
       },
       "details": {
         "category": "FPS",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Treyarch",
         "publisher": "Activision",
         "languages": [
@@ -201,20 +216,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/bo6/thumbnail.png",
-        "cover": "/assets/bo6/cover.jpg",
+        "thumbnail": "/assets/eplay/bo6/thumbnail.png",
+        "cover": "/assets/eplay/bo6/cover.jpg",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/bo6/image1.jpg"
+            "url": "/assets/eplay/bo6/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/bo6/image2.jpg"
+            "url": "/assets/eplay/bo6/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/bo6/image3.jpg"
+            "url": "/assets/eplay/bo6/image3.jpg"
           },
           {
             "type": "video",
@@ -235,7 +250,9 @@
       },
       "details": {
         "category": "Soulslike",
-        "system": ["PS5"],
+        "system": [
+          "PS5"
+        ],
         "developer": "Fromsoftware",
         "publisher": "Playstation",
         "languages": [
@@ -250,16 +267,16 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/bloodborne/thumbnail.jpg",
-        "cover": "/assets/bloodborne/cover.webp",
+        "thumbnail": "/assets/eplay/bloodborne/thumbnail.jpg",
+        "cover": "/assets/eplay/bloodborne/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/bloodborne/image1.jpg"
+            "url": "/assets/eplay/bloodborne/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/bloodborne/image2.jpg"
+            "url": "/assets/eplay/bloodborne/image2.jpg"
           }
         ]
       }
@@ -276,7 +293,11 @@
       },
       "details": {
         "category": "Adventure",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Tunic Team",
         "publisher": "Finji",
         "languages": [
@@ -311,20 +332,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/tunic/thumbnail.jpg",
-        "cover": "/assets/tunic/cover.webp",
+        "thumbnail": "/assets/eplay/tunic/thumbnail.jpg",
+        "cover": "/assets/eplay/tunic/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/tunic/image1.jpg"
+            "url": "/assets/eplay/tunic/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/tunic/image2.jpg"
+            "url": "/assets/eplay/tunic/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/tunic/image3.jpg"
+            "url": "/assets/eplay/tunic/image3.jpg"
           },
           {
             "type": "video",
@@ -345,7 +366,11 @@
       },
       "details": {
         "category": "RPG",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "CD PROJEKT RED",
         "publisher": "CD PROJEKT RED",
         "languages": [
@@ -371,20 +396,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/cyberpunk/thumbnail.jpg",
-        "cover": "/assets/cyberpunk/cover.avif",
+        "thumbnail": "/assets/eplay/cyberpunk/thumbnail.jpg",
+        "cover": "/assets/eplay/cyberpunk/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/cyberpunk/image1.jpg"
+            "url": "/assets/eplay/cyberpunk/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/cyberpunk/image2.jpg"
+            "url": "/assets/eplay/cyberpunk/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/cyberpunk/image3.jpg"
+            "url": "/assets/eplay/cyberpunk/image3.jpg"
           },
           {
             "type": "video",
@@ -409,7 +434,11 @@
       },
       "details": {
         "category": "Soulslike",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Fromsoftware",
         "publisher": "Bandai Namco Entertainment",
         "languages": [
@@ -428,20 +457,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/eldenring/thumbnail.jpg",
-        "cover": "/assets/eldenring/cover.webp",
+        "thumbnail": "/assets/eplay/eldenring/thumbnail.jpg",
+        "cover": "/assets/eplay/eldenring/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/eldenring/image1.jpg"
+            "url": "/assets/eplay/eldenring/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/eldenring/image2.jpg"
+            "url": "/assets/eplay/eldenring/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/eldenring/image3.jpg"
+            "url": "/assets/eplay/eldenring/image3.jpg"
           },
           {
             "type": "video",
@@ -466,7 +495,10 @@
       },
       "details": {
         "category": "Action-Adventure",
-        "system": ["Steam", "PS5"],
+        "system": [
+          "Steam",
+          "PS5"
+        ],
         "developer": "Naughty Dog",
         "publisher": "Sony Interactive Entertainment",
         "languages": [
@@ -497,20 +529,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/tlou2/thumbnail.avif",
-        "cover": "/assets/tlou2/cover.avif",
+        "thumbnail": "/assets/eplay/tlou2/thumbnail.avif",
+        "cover": "/assets/eplay/tlou2/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/tlou2/image1.jpg"
+            "url": "/assets/eplay/tlou2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/tlou2/image2.jpg"
+            "url": "/assets/eplay/tlou2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/tlou2/image3.jpg"
+            "url": "/assets/eplay/tlou2/image3.jpg"
           },
           {
             "type": "video",
@@ -535,7 +567,11 @@
       },
       "details": {
         "category": "Puzzle",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Mobius Digital",
         "publisher": "Annapurna Interactive",
         "languages": [
@@ -553,20 +589,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/outerwilds/thumbnail.png",
-        "cover": "/assets/outerwilds/cover.avif",
+        "thumbnail": "/assets/eplay/outerwilds/thumbnail.png",
+        "cover": "/assets/eplay/outerwilds/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/outerwilds/image1.jpg"
+            "url": "/assets/eplay/outerwilds/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/outerwilds/image2.jpg"
+            "url": "/assets/eplay/outerwilds/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/outerwilds/image3.jpg"
+            "url": "/assets/eplay/outerwilds/image3.jpg"
           },
           {
             "type": "video",
@@ -591,7 +627,11 @@
       },
       "details": {
         "category": "Stealth-Action",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Konami Digital Entertainment",
         "publisher": "Konami",
         "languages": [
@@ -611,20 +651,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/mgsdelta/thumbnail.png",
-        "cover": "/assets/mgsdelta/cover.avif",
+        "thumbnail": "/assets/eplay/mgsdelta/thumbnail.png",
+        "cover": "/assets/eplay/mgsdelta/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/mgsdelta/image1.jpg"
+            "url": "/assets/eplay/mgsdelta/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/mgsdelta/image2.jpg"
+            "url": "/assets/eplay/mgsdelta/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/mgsdelta/image3.jpg"
+            "url": "/assets/eplay/mgsdelta/image3.jpg"
           },
           {
             "type": "video",
@@ -649,7 +689,11 @@
       },
       "details": {
         "category": "Metroidvania",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Team Cherry",
         "publisher": "Team Cherry",
         "languages": [
@@ -669,20 +713,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/silksong/thumbnail.png",
-        "cover": "/assets/silksong/cover.webp",
+        "thumbnail": "/assets/eplay/silksong/thumbnail.png",
+        "cover": "/assets/eplay/silksong/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/silksong/image1.jpg"
+            "url": "/assets/eplay/silksong/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/silksong/image2.jpg"
+            "url": "/assets/eplay/silksong/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/silksong/image3.jpg"
+            "url": "/assets/eplay/silksong/image3.jpg"
           },
           {
             "type": "video",
@@ -723,16 +767,16 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/gtavi/thumbnail.png",
-        "cover": "/assets/gtavi/cover.avif",
+        "thumbnail": "/assets/eplay/gtavi/thumbnail.png",
+        "cover": "/assets/eplay/gtavi/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/gtavi/image1.webp"
+            "url": "/assets/eplay/gtavi/image1.webp"
           },
           {
             "type": "image",
-            "url": "/assets/gtavi/image2.jpg"
+            "url": "/assets/eplay/gtavi/image2.jpg"
           },
           {
             "type": "video",
@@ -757,7 +801,11 @@
       },
       "details": {
         "category": "Survival Horror",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Motive Studio",
         "publisher": "Electronic Arts",
         "languages": [
@@ -777,20 +825,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/deadspace/thumbnail.png",
-        "cover": "/assets/deadspace/cover.webp",
+        "thumbnail": "/assets/eplay/deadspace/thumbnail.png",
+        "cover": "/assets/eplay/deadspace/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/deadspace/image1.jpg"
+            "url": "/assets/eplay/deadspace/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/deadspace/image2.jpg"
+            "url": "/assets/eplay/deadspace/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/deadspace/image3.jpg"
+            "url": "/assets/eplay/deadspace/image3.jpg"
           },
           {
             "type": "video",
@@ -811,7 +859,11 @@
       },
       "details": {
         "category": "Action-Adventure",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Rockstar Games",
         "publisher": "Rockstar Games",
         "languages": [
@@ -831,24 +883,24 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/rdr2/thumbnail.png",
-        "cover": "/assets/rdr2/cover.avif",
+        "thumbnail": "/assets/eplay/rdr2/thumbnail.png",
+        "cover": "/assets/eplay/rdr2/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/rdr2/image1.jpg"
+            "url": "/assets/eplay/rdr2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/rdr2/image2.jpg"
+            "url": "/assets/eplay/rdr2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/rdr2/image3.jpg"
+            "url": "/assets/eplay/rdr2/image3.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/rdr2/image4.jpg"
+            "url": "/assets/eplay/rdr2/image4.jpg"
           },
           {
             "type": "video",
@@ -873,7 +925,11 @@
       },
       "details": {
         "category": "Simulation",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Kunos Simulazioni",
         "publisher": "505 Games",
         "languages": [
@@ -892,20 +948,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/assettocorsa/thumbnail.png",
-        "cover": "/assets/assettocorsa/cover.webp",
+        "thumbnail": "/assets/eplay/assettocorsa/thumbnail.png",
+        "cover": "/assets/eplay/assettocorsa/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/assettocorsa/image1.jpg"
+            "url": "/assets/eplay/assettocorsa/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/assettocorsa/image2.jpg"
+            "url": "/assets/eplay/assettocorsa/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/assettocorsa/image3.jpg"
+            "url": "/assets/eplay/assettocorsa/image3.jpg"
           },
           {
             "type": "video",
@@ -926,7 +982,11 @@
       },
       "details": {
         "category": "Sports",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "EA Vancouver, EA Romania",
         "publisher": "Electronic Arts",
         "languages": [
@@ -949,20 +1009,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/fc25/thumbnail.png",
-        "cover": "/assets/fc25/cover.avif",
+        "thumbnail": "/assets/eplay/fc25/thumbnail.png",
+        "cover": "/assets/eplay/fc25/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/fc25/image1.jpg"
+            "url": "/assets/eplay/fc25/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/fc25/image2.jpg"
+            "url": "/assets/eplay/fc25/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/fc25/image3.jpg"
+            "url": "/assets/eplay/fc25/image3.jpg"
           },
           {
             "type": "video",
@@ -983,7 +1043,11 @@
       },
       "details": {
         "category": "Sports",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Codemasters",
         "publisher": "EA Sports",
         "languages": [
@@ -1006,20 +1070,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/f125/thumbnail.png",
-        "cover": "/assets/f125/cover.avif",
+        "thumbnail": "/assets/eplay/f125/thumbnail.png",
+        "cover": "/assets/eplay/f125/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/f125/image1.jpg"
+            "url": "/assets/eplay/f125/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/f125/image2.jpg"
+            "url": "/assets/eplay/f125/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/f125/image3.jpg"
+            "url": "/assets/eplay/f125/image3.jpg"
           },
           {
             "type": "video",
@@ -1044,7 +1108,11 @@
       },
       "details": {
         "category": "Simulation",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Colossal Order",
         "publisher": "Paradox Interactive",
         "languages": [
@@ -1064,20 +1132,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/citiesskylines/thumbnail.png",
-        "cover": "/assets/citiesskylines/cover.avif",
+        "thumbnail": "/assets/eplay/citiesskylines/thumbnail.png",
+        "cover": "/assets/eplay/citiesskylines/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/citiesskylines/image1.jpg"
+            "url": "/assets/eplay/citiesskylines/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/citiesskylines/image2.jpg"
+            "url": "/assets/eplay/citiesskylines/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/citiesskylines/image3.jpg"
+            "url": "/assets/eplay/citiesskylines/image3.jpg"
           },
           {
             "type": "video",
@@ -1098,7 +1166,11 @@
       },
       "details": {
         "category": "RPG",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "CD Projekt Red",
         "publisher": "CD Projekt",
         "languages": [
@@ -1121,24 +1193,24 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/tw3/thumbnail.png",
-        "cover": "/assets/tw3/cover.jpg",
+        "thumbnail": "/assets/eplay/tw3/thumbnail.png",
+        "cover": "/assets/eplay/tw3/cover.jpg",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/tw3/image1.jpg"
+            "url": "/assets/eplay/tw3/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/tw3/image2.jpg"
+            "url": "/assets/eplay/tw3/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/tw3/image3.jpg"
+            "url": "/assets/eplay/tw3/image3.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/tw3/image4.jpg"
+            "url": "/assets/eplay/tw3/image4.jpg"
           },
           {
             "type": "video",
@@ -1163,7 +1235,11 @@
       },
       "details": {
         "category": "FPS",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Infinity Ward",
         "publisher": "Activision",
         "languages": [
@@ -1186,28 +1262,28 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/mw/thumbnail.png",
-        "cover": "/assets/mw/cover.avif",
+        "thumbnail": "/assets/eplay/mw/thumbnail.png",
+        "cover": "/assets/eplay/mw/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/mw/image1.jpg"
+            "url": "/assets/eplay/mw/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/mw/image2.jpg"
+            "url": "/assets/eplay/mw/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/mw/image3.jpg"
+            "url": "/assets/eplay/mw/image3.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/mw/image4.jpg"
+            "url": "/assets/eplay/mw/image4.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/mw/image5.jpg"
+            "url": "/assets/eplay/mw/image5.jpg"
           }
         ]
       }
@@ -1224,7 +1300,11 @@
       },
       "details": {
         "category": "Soulslike",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "FromSoftware",
         "publisher": "Bandai Namco Entertainment",
         "languages": [
@@ -1244,20 +1324,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/darksouls/thumbnail.png",
-        "cover": "/assets/darksouls/cover.webp",
+        "thumbnail": "/assets/eplay/darksouls/thumbnail.png",
+        "cover": "/assets/eplay/darksouls/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/darksouls/image1.jpg"
+            "url": "/assets/eplay/darksouls/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/darksouls/image2.jpg"
+            "url": "/assets/eplay/darksouls/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/darksouls/image3.jpg"
+            "url": "/assets/eplay/darksouls/image3.jpg"
           },
           {
             "type": "video",
@@ -1278,7 +1358,9 @@
       },
       "details": {
         "category": "Soulslike",
-        "system": ["PS5"],
+        "system": [
+          "PS5"
+        ],
         "developer": "Bluepoint Games",
         "publisher": "Sony Interactive Entertainment",
         "languages": [
@@ -1299,20 +1381,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/demonsouls/thumbnail.png",
-        "cover": "/assets/demonsouls/cover.avif",
+        "thumbnail": "/assets/eplay/demonsouls/thumbnail.png",
+        "cover": "/assets/eplay/demonsouls/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/demonsouls/image1.jpg"
+            "url": "/assets/eplay/demonsouls/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/demonsouls/image2.jpg"
+            "url": "/assets/eplay/demonsouls/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/demonsouls/image3.jpg"
+            "url": "/assets/eplay/demonsouls/image3.jpg"
           },
           {
             "type": "video",
@@ -1333,7 +1415,11 @@
       },
       "details": {
         "category": "Puzzle",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Shared Memory",
         "publisher": "Bigmode",
         "languages": [
@@ -1353,20 +1439,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/animalwell/thumbnail.png",
-        "cover": "/assets/animalwell/cover.avif",
+        "thumbnail": "/assets/eplay/animalwell/thumbnail.png",
+        "cover": "/assets/eplay/animalwell/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/animalwell/image1.jpg"
+            "url": "/assets/eplay/animalwell/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/animalwell/image2.jpg"
+            "url": "/assets/eplay/animalwell/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/animalwell/image3.jpg"
+            "url": "/assets/eplay/animalwell/image3.jpg"
           },
           {
             "type": "video",
@@ -1387,7 +1473,10 @@
       },
       "details": {
         "category": "Puzzle",
-        "system": ["Steam", "Nintendo Switch"],
+        "system": [
+          "Steam",
+          "Nintendo Switch"
+        ],
         "developer": "Valve",
         "publisher": "Valve",
         "languages": [
@@ -1415,20 +1504,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/portal2/thumbnail.png",
-        "cover": "/assets/portal2/cover.jpg",
+        "thumbnail": "/assets/eplay/portal2/thumbnail.png",
+        "cover": "/assets/eplay/portal2/cover.jpg",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/portal2/image1.jpg"
+            "url": "/assets/eplay/portal2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/portal2/image2.jpg"
+            "url": "/assets/eplay/portal2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/portal2/image3.jpg"
+            "url": "/assets/eplay/portal2/image3.jpg"
           },
           {
             "type": "video",
@@ -1453,7 +1542,11 @@
       },
       "details": {
         "category": "Survival Horror",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Capcom",
         "publisher": "Capcom",
         "languages": [
@@ -1473,20 +1566,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/re2/thumbnail.png",
-        "cover": "/assets/re2/cover.avif",
+        "thumbnail": "/assets/eplay/re2/thumbnail.png",
+        "cover": "/assets/eplay/re2/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/re2/image1.jpg"
+            "url": "/assets/eplay/re2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/re2/image2.jpg"
+            "url": "/assets/eplay/re2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/re2/image3.jpg"
+            "url": "/assets/eplay/re2/image3.jpg"
           },
           {
             "type": "video",
@@ -1507,7 +1600,11 @@
       },
       "details": {
         "category": "Survival Horror",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Capcom",
         "publisher": "Capcom",
         "languages": [
@@ -1527,20 +1624,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/re4/thumbnail.png",
-        "cover": "/assets/re4/cover.webp",
+        "thumbnail": "/assets/eplay/re4/thumbnail.png",
+        "cover": "/assets/eplay/re4/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/re4/image1.jpg"
+            "url": "/assets/eplay/re4/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/re4/image2.jpg"
+            "url": "/assets/eplay/re4/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/re4/image3.jpg"
+            "url": "/assets/eplay/re4/image3.jpg"
           },
           {
             "type": "video",
@@ -1565,7 +1662,11 @@
       },
       "details": {
         "category": "Survival Horror",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Endnight Games",
         "publisher": "Newnight",
         "languages": [
@@ -1588,20 +1689,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/sotf/thumbnail.png",
-        "cover": "/assets/sotf/cover.png",
+        "thumbnail": "/assets/eplay/sotf/thumbnail.png",
+        "cover": "/assets/eplay/sotf/cover.png",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/sotf/image1.jpg"
+            "url": "/assets/eplay/sotf/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/sotf/image2.jpg"
+            "url": "/assets/eplay/sotf/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/sotf/image3.jpg"
+            "url": "/assets/eplay/sotf/image3.jpg"
           },
           {
             "type": "video",
@@ -1626,7 +1727,11 @@
       },
       "details": {
         "category": "RPG",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Atlus",
         "publisher": "Sega",
         "languages": [
@@ -1646,20 +1751,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/persona3/thumbnail.png",
-        "cover": "/assets/persona3/cover.avif",
+        "thumbnail": "/assets/eplay/persona3/thumbnail.png",
+        "cover": "/assets/eplay/persona3/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/persona3/image1.jpg"
+            "url": "/assets/eplay/persona3/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/persona3/image2.jpg"
+            "url": "/assets/eplay/persona3/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/persona3/image3.jpg"
+            "url": "/assets/eplay/persona3/image3.jpg"
           },
           {
             "type": "video",
@@ -1680,7 +1785,11 @@
       },
       "details": {
         "category": "Survival Horror",
-        "system": ["Epic", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Epic",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Remedy Entertainment",
         "publisher": "Epic Games Publishing",
         "languages": [
@@ -1701,20 +1810,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/alanwake2/thumbnail.png",
-        "cover": "/assets/alanwake2/cover.avif",
+        "thumbnail": "/assets/eplay/alanwake2/thumbnail.png",
+        "cover": "/assets/eplay/alanwake2/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/alanwake2/image1.jpg"
+            "url": "/assets/eplay/alanwake2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/alanwake2/image2.jpg"
+            "url": "/assets/eplay/alanwake2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/alanwake2/image3.png"
+            "url": "/assets/eplay/alanwake2/image3.png"
           },
           {
             "type": "video",
@@ -1739,7 +1848,11 @@
       },
       "details": {
         "category": "RPG",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "CD PROJEKT RED",
         "publisher": "CD PROJEKT RED",
         "languages": [
@@ -1759,16 +1872,16 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/tw4/thumbnail.png",
-        "cover": "/assets/tw4/cover.webp",
+        "thumbnail": "/assets/eplay/tw4/thumbnail.png",
+        "cover": "/assets/eplay/tw4/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/tw4/image1.jpg"
+            "url": "/assets/eplay/tw4/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/tw4/image2.jpg"
+            "url": "/assets/eplay/tw4/image2.jpg"
           },
           {
             "type": "video",
@@ -1789,7 +1902,10 @@
       },
       "details": {
         "category": "FPS",
-        "system": ["Steam", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "Xbox Series S/X"
+        ],
         "developer": "GSC Game World",
         "publisher": "GSC Game World",
         "languages": [
@@ -1813,20 +1929,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/stalker2/thumbnail.png",
-        "cover": "/assets/stalker2/cover.jpg",
+        "thumbnail": "/assets/eplay/stalker2/thumbnail.png",
+        "cover": "/assets/eplay/stalker2/cover.jpg",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/stalker2/image1.jpg"
+            "url": "/assets/eplay/stalker2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/stalker2/image2.jpg"
+            "url": "/assets/eplay/stalker2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/stalker2/image3.jpg"
+            "url": "/assets/eplay/stalker2/image3.jpg"
           },
           {
             "type": "video",
@@ -1851,7 +1967,9 @@
       },
       "details": {
         "category": "Puzzle",
-        "system": ["Steam"],
+        "system": [
+          "Steam"
+        ],
         "developer": "Dumativa, Cellbit",
         "publisher": "Dumativa, Nuuvem Inc",
         "languages": [
@@ -1861,20 +1979,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/enigmaoffear/thumbnail.png",
-        "cover": "/assets/enigmaoffear/cover.jpg",
+        "thumbnail": "/assets/eplay/enigmaoffear/thumbnail.png",
+        "cover": "/assets/eplay/enigmaoffear/cover.jpg",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/enigmaoffear/image1.jpg"
+            "url": "/assets/eplay/enigmaoffear/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/enigmaoffear/image2.jpg"
+            "url": "/assets/eplay/enigmaoffear/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/enigmaoffear/image3.jpg"
+            "url": "/assets/eplay/enigmaoffear/image3.jpg"
           },
           {
             "type": "video",
@@ -1899,7 +2017,11 @@
       },
       "details": {
         "category": "Metroidvania",
-        "system": ["Steam", "Android", "Switch"],
+        "system": [
+          "Steam",
+          "Android",
+          "Switch"
+        ],
         "developer": "The Game Kitchen",
         "publisher": "Team17",
         "languages": [
@@ -1915,20 +2037,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/blasphemous/thumbnail.png",
-        "cover": "/assets/blasphemous/cover.webp",
+        "thumbnail": "/assets/eplay/blasphemous/thumbnail.png",
+        "cover": "/assets/eplay/blasphemous/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/blasphemous/image1.jpg"
+            "url": "/assets/eplay/blasphemous/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/blasphemous/image2.jpg"
+            "url": "/assets/eplay/blasphemous/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/blasphemous/image3.jpg"
+            "url": "/assets/eplay/blasphemous/image3.jpg"
           },
           {
             "type": "video",
@@ -1967,20 +2089,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/amtb/thumbnail.png",
-        "cover": "/assets/amtb/cover.avif",
+        "thumbnail": "/assets/eplay/amtb/thumbnail.png",
+        "cover": "/assets/eplay/amtb/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/amtb/image1.jpg"
+            "url": "/assets/eplay/amtb/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/amtb/image2.jpg"
+            "url": "/assets/eplay/amtb/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/amtb/image3.jpg"
+            "url": "/assets/eplay/amtb/image3.jpg"
           },
           {
             "type": "video",
@@ -2005,7 +2127,11 @@
       },
       "details": {
         "category": "Horror",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Puppet Combo",
         "publisher": "Puppet Combo",
         "languages": [
@@ -2018,20 +2144,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/sooth/thumbnail.png",
-        "cover": "/assets/sooth/cover.avif",
+        "thumbnail": "/assets/eplay/sooth/thumbnail.png",
+        "cover": "/assets/eplay/sooth/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/sooth/image1.jpg"
+            "url": "/assets/eplay/sooth/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/sooth/image2.jpg"
+            "url": "/assets/eplay/sooth/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/sooth/image3.jpg"
+            "url": "/assets/eplay/sooth/image3.jpg"
           },
           {
             "type": "video",
@@ -2056,7 +2182,11 @@
       },
       "details": {
         "category": "Sports",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Visual Concepts",
         "publisher": "2K",
         "languages": [
@@ -2078,16 +2208,16 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/2k25/thumbnail.png",
-        "cover": "/assets/2k25/cover.avif",
+        "thumbnail": "/assets/eplay/2k25/thumbnail.png",
+        "cover": "/assets/eplay/2k25/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/2k25/image1.jpg"
+            "url": "/assets/eplay/2k25/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/2k25/image2.jpg"
+            "url": "/assets/eplay/2k25/image2.jpg"
           },
           {
             "type": "video",
@@ -2108,7 +2238,11 @@
       },
       "details": {
         "category": "Sports",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "Playground Games",
         "publisher": "Xbox Game Studios",
         "languages": [
@@ -2133,20 +2267,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/fh5/thumbnail.png",
-        "cover": "/assets/fh5/cover.avif",
+        "thumbnail": "/assets/eplay/fh5/thumbnail.png",
+        "cover": "/assets/eplay/fh5/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/fh5/image1.jpg"
+            "url": "/assets/eplay/fh5/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/fh5/image2.jpg"
+            "url": "/assets/eplay/fh5/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/fh5/image3.jpg"
+            "url": "/assets/eplay/fh5/image3.jpg"
           },
           {
             "type": "video",
@@ -2167,11 +2301,15 @@
       "prices": {
         "discount": null,
         "old": null,
-        "current": 40.90
+        "current": 40.9
       },
       "details": {
         "category": "Simulation",
-        "system": ["Steam", "PS5", "Xbox Series S/X"],
+        "system": [
+          "Steam",
+          "PS5",
+          "Xbox Series S/X"
+        ],
         "developer": "GIANTS Software",
         "publisher": "GIANTS Software",
         "languages": [
@@ -2196,20 +2334,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/farmingsim25/thumbnail.png",
-        "cover": "/assets/farmingsim25/cover.avif",
+        "thumbnail": "/assets/eplay/farmingsim25/thumbnail.png",
+        "cover": "/assets/eplay/farmingsim25/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/farmingsim25/image1.jpg"
+            "url": "/assets/eplay/farmingsim25/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/farmingsim25/image2.jpg"
+            "url": "/assets/eplay/farmingsim25/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/farmingsim25/image3.jpg"
+            "url": "/assets/eplay/farmingsim25/image3.jpg"
           },
           {
             "type": "video",
@@ -2234,7 +2372,9 @@
       },
       "details": {
         "category": "Simulation",
-        "system": ["Steam"],
+        "system": [
+          "Steam"
+        ],
         "developer": "SCS Software",
         "publisher": "SCS Software",
         "languages": [
@@ -2267,20 +2407,20 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/eurotruck2/thumbnail.png",
-        "cover": "/assets/eurotruck2/cover.webp",
+        "thumbnail": "/assets/eplay/eurotruck2/thumbnail.png",
+        "cover": "/assets/eplay/eurotruck2/cover.webp",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/eurotruck2/image1.jpg"
+            "url": "/assets/eplay/eurotruck2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/eurotruck2/image2.jpg"
+            "url": "/assets/eplay/eurotruck2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/eurotruck2/image3.jpg"
+            "url": "/assets/eplay/eurotruck2/image3.jpg"
           },
           {
             "type": "video",
@@ -2297,7 +2437,7 @@
       "prices": {
         "discount": null,
         "old": null,
-        "current": 39.90
+        "current": 39.9
       },
       "details": {
         "category": "Action-Adventure",
@@ -2327,24 +2467,24 @@
         ]
       },
       "media": {
-        "thumbnail": "/assets/plaguetale2/thumbnail.png",
-        "cover": "/assets/plaguetale2/cover.avif",
+        "thumbnail": "/assets/eplay/plaguetale2/thumbnail.png",
+        "cover": "/assets/eplay/plaguetale2/cover.avif",
         "gallery": [
           {
             "type": "image",
-            "url": "/assets/plaguetale2/image1.jpg"
+            "url": "/assets/eplay/plaguetale2/image1.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/plaguetale2/image2.jpg"
+            "url": "/assets/eplay/plaguetale2/image2.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/plaguetale2/image3.jpg"
+            "url": "/assets/eplay/plaguetale2/image3.jpg"
           },
           {
             "type": "image",
-            "url": "/assets/plaguetale2/image4.jpg"
+            "url": "/assets/eplay/plaguetale2/image4.jpg"
           },
           {
             "type": "video",
