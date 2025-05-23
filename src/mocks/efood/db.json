@@ -9,7 +9,7 @@
       "cover": "/assets/bella_tavola_italiana/cover.jpeg",
       "menu": [
         {
-          "picture": "/assets/bella_tavola_italiana/1.jpg",
+          "picture": "/assets/bella_tavola_italiana/1.webp",
           "price": 12.99,
           "id": 1,
           "name": "Ravioli al Tartufo Nero",
