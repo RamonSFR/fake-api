@@ -5,31 +5,14 @@
       "src": "server.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": [
-          "db.json",
-          "assets/**",
-          "src/**",
-          "public/**"
-        ]
+        "includeFiles": ["db.json", "assets/**"]
       }
     }
   ],
   "routes": [
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/eplay/assets/(.*)",
-      "dest": "/src/assets/eplay/$1"
-    },
-    {
-      "src": "/efood/assets/(.*)",
-      "dest": "/src/assets/efood/$1"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/server.js"
+      "dest": "server.js"
     }
   ]
 }
