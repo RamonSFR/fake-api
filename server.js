@@ -146,17 +146,94 @@ app.post('/eplay/checkout', (req, res) => {
   const body = req.body
 
   if (!body || !body.products || body.products.length === 0) {
-    return res.status(400).json({ message: 'Reveja os dados enviados' })
+    return res.status(400).json({ message: 'Check your order info' })
   }
 
   if (body.payment.card.active) {
     const card = body.payment.card
     if (!card.number || !card.name || !card.expires || !card.code) {
-      return res.status(400).json({ message: 'Dados do cartão incompletos' })
+      return res.status(400).json({ message: 'Incomplete card details' })
     }
   }
 
   const orderId = `#100${Math.floor(Math.random() * 10000)}`
+  res.status(201).json({ orderId })
+})
+
+// -------------------- EFOOD ENDPOINTS --------------------
+
+app.get('/efood/checkout', (req, res) => {
+  const payload = {
+    products: [
+      {
+        id: 1,
+        price: 0
+      }
+    ],
+    delivery: {
+      receiver: 'string',
+      address: {
+        description: 'string',
+        city: 'string',
+        zipCode: 'string',
+        number: 123,
+        complement: 'string'
+      }
+    },
+    payment: {
+      card: {
+        name: 'string',
+        number: 'string',
+        code: 123,
+        expires: {
+          month: 12,
+          year: 2025
+        }
+      }
+    }
+  }
+
+  res.status(200).json(payload)
+})
+
+app.post('/efood/checkout', (req, res) => {
+  const body = req.body
+
+  if (
+    !body ||
+    !body.products ||
+    !Array.isArray(body.products) ||
+    body.products.length === 0
+  ) {
+    return res.status(400).json({ message: 'Check your order info' })
+  }
+
+  const delivery = body.delivery
+  if (
+    !delivery ||
+    !delivery.receiver ||
+    !delivery.address ||
+    !delivery.address.description ||
+    !delivery.address.city ||
+    !delivery.address.zipCode ||
+    !delivery.address.number
+  ) {
+    return res.status(400).json({ message: 'Incomplete delivery address' })
+  }
+
+  const card = body.payment?.card
+  if (
+    !card ||
+    !card.name ||
+    !card.number ||
+    !card.code ||
+    !card.expires?.month ||
+    !card.expires?.year
+  ) {
+    return res.status(400).json({ message: 'Incomplete payment info' })
+  }
+
+  const orderId = `#EF${Math.floor(Math.random() * 10000)}`
   res.status(201).json({ orderId })
 })
 
